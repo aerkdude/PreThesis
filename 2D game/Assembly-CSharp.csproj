@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\CameraSystem.cs" />
      <Compile Include="Assets\Scripts\DialougeHolder.cs" />
      <Compile Include="Assets\Scripts\DialougeManager.cs" />
+     <Compile Include="Assets\Scripts\DoorScript.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
