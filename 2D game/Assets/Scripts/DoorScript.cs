@@ -7,20 +7,20 @@ public class DoorScript : MonoBehaviour {
 
 	public GameObject OpenPanel = null;
 
-	// Use this for initialization
+
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
 		
 		
 	}
 
-	void OnTirggerEnter(Collider other) 
+	void OnTirggerEnter2D (Collider2D other) 
 	{
-		if (other.tag == "Player") 
+		if (other.tag == "Player")
 		{
 			Debug.Log("Hit");
 		}
