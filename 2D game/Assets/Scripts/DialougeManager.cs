@@ -10,13 +10,14 @@ public class DialougeManager : MonoBehaviour {
 
 	public bool dialougeActive;
 
-	// Use this for initialization
+	
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
-	void Update () {
+	
+	void Update ()
+    {
 		if(dialougeActive && Input.GetKeyDown (KeyCode.Space))
 		{
 			dBox.SetActive(false);

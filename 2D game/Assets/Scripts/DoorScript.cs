@@ -7,22 +7,40 @@ public class DoorScript : MonoBehaviour {
 
 	public GameObject OpenPanel = null;
 
-
-	void Start () {
-		
-	}
-	
-
-	void Update () {
-		
-		
-	}
-
-	void OnTirggerEnter2D (Collider2D other) 
+    void OnTriggerEnter2D(Collider2D other) 
 	{
 		if (other.tag == "Player")
 		{
-			Debug.Log("Hit");
+			
+            OpenPanel.SetActive(true);
 		}
 	}
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            OpenPanel.SetActive(false);
+        }
+    }
+
+    private bool IsOpenPanelActive
+    {
+        get
+        {
+            return OpenPanel.activeInHierarchy;
+        }
+    }
+
+    void Update ()
+    {
+        if(IsOpenPanelActive)
+        {
+            if(Input.GetKeyDown(KeyCode.E))
+            {
+                OpenPanel.SetActive(false);
+                Debug.Log("DoorOpen");
+            }
+        }
+    }
 }

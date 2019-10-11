@@ -17,11 +17,12 @@ public class DialougeHolder : MonoBehaviour {
 		
 	}
 
-	void OnTriggerStay2d(Collider2D other)
+	void OnTriggerStay2D(Collider2D other)
 	{
 		if (other.gameObject.name == "Player") 
 		{
-			if (Input.GetKeyDown(KeyCode.Space)) 
+            Debug.Log("Interacted");
+			if (Input.GetKeyUp(KeyCode.Space)) 
 			{
 				dMan.ShowBox(dialouge);
 			}
