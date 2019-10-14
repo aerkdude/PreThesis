@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class DoorScript : MonoBehaviour {
 
 	public GameObject OpenPanel = null;
+    public Transform spawnPoint;
 
     void OnTriggerEnter2D(Collider2D other) 
 	{
@@ -38,8 +39,9 @@ public class DoorScript : MonoBehaviour {
         {
             if(Input.GetKeyDown(KeyCode.E))
             {
-                OpenPanel.SetActive(false);
-                Debug.Log("DoorOpen");
+                GameObject player = GameObject.FindGameObjectWithTag("Player");
+                //OpenPanel.SetActive(false);
+                player.gameObject.transform.position = spawnPoint.position;
             }
         }
     }
