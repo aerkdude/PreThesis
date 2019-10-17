@@ -6,9 +6,9 @@ public class DialougeHolder : MonoBehaviour {
 
 	public string dialouge;
 	private DialougeManager dMan;
-
-	// Use this for initialization
-	void Start () {
+   
+    // Use this for initialization
+    void Start () {
 		dMan = FindObjectOfType<DialougeManager>();
 	}
 	

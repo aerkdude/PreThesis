@@ -7,8 +7,8 @@ public class DialougeManager : MonoBehaviour {
 
 	public GameObject dBox;
 	public Text dText;
-
-	public bool dialougeActive;
+    
+    public bool dialougeActive;
 
 	
 	void Start () {
@@ -18,7 +18,7 @@ public class DialougeManager : MonoBehaviour {
 	
 	void Update ()
     {
-		if(dialougeActive && Input.GetKeyDown (KeyCode.Space))
+		if(dialougeActive && Input.GetKeyDown(KeyCode.Space))
 		{
 			dBox.SetActive(false);
 			dialougeActive = false;

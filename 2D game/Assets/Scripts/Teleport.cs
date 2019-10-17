@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Teleport : MonoBehaviour
 {
-	public GameObject LandActive;
-	public GameObject LandInActive;
+	//public GameObject LandActive;
+	//public GameObject LandInActive;
     public Transform spawnPoint;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-		LandActive.SetActive(true);
+		//LandActive.SetActive(true);
 		other.gameObject.transform.position = spawnPoint.position;
-		LandInActive.SetActive(false);
+		//LandInActive.SetActive(false);
 	}
 }
 
