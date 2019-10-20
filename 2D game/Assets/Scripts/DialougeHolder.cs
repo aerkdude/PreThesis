@@ -21,7 +21,7 @@ public class DialougeHolder : MonoBehaviour {
 	{
 		if (other.gameObject.name == "Player") 
 		{
-            Debug.Log("Interacted");
+            //Debug.Log("Interacted");
 			if (Input.GetKeyUp(KeyCode.Space)) 
 			{
 				dMan.ShowBox(dialouge);
