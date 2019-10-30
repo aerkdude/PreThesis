@@ -6,6 +6,8 @@ public class DialougeHolder : MonoBehaviour {
 
 	public string dialouge;
 	private DialougeManager dMan;
+
+    public string[] dialougeLines;
    
     // Use this for initialization
     void Start () {
@@ -22,10 +24,16 @@ public class DialougeHolder : MonoBehaviour {
 		if (other.gameObject.name == "Player") 
 		{
             //Debug.Log("Interacted");
-			if (Input.GetKeyUp(KeyCode.Space)) 
-			{
-				dMan.ShowBox(dialouge);
-			}
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                //dMan.ShowBox(dialouge);
+                if (!dMan.dialougeActive)
+                {
+                    dMan.dialougeLines = dialougeLines;
+                    dMan.currentLine = 0;
+                    dMan.ShowDialouge();
+                }
+            }
 		}
 	}
 }

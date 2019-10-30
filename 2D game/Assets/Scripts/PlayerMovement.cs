@@ -9,8 +9,21 @@ public class PlayerMovement : MonoBehaviour {
 	//public int playerJumpPower = 1250;
 	private float moveX;
 
+    public bool canMove;
+
+    void Start()
+    {
+        canMove = true;
+    }
+
 	void Update () {
 		PlayerMove();
+
+        if(!canMove)
+        {
+            gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            return;
+        }
 	}
 	
 	void PlayerMove() {
