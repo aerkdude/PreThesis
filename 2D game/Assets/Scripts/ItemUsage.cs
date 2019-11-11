@@ -16,6 +16,6 @@ public class ItemUsage : MonoBehaviour
     {
         //Instantiate(effect, player.position, Quaternion.identity);
         Debug.Log("Item Used");
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 }

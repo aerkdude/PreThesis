@@ -6,11 +6,22 @@ public class PlayerMovement : MonoBehaviour {
 
 	public int playerSpeed = 10;
 	private bool facingRight = false;
-	//public int playerJumpPower = 1250;
-	private float moveX;
+    private float moveX;
+    public bool canMove;
 
-	void Update () {
+    void Start ()
+    {
+        canMove = true;
+    }
+
+	void Update ()
+    {
 		PlayerMove();
+        if (!canMove)
+        {
+            gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            return;
+        }
 	}
 	
 	void PlayerMove() {
@@ -29,7 +40,8 @@ public class PlayerMovement : MonoBehaviour {
 		gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2 (moveX * playerSpeed, gameObject.GetComponent<Rigidbody2D>().velocity.y);
 	}
 
-	void FlipPlayer() {
+	void FlipPlayer()
+    {
 		facingRight = !facingRight;
 		Vector2 localScale = gameObject.transform.localScale;
 		localScale.x *= -1;

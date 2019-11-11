@@ -6,7 +6,9 @@ public class DialougeHolder : MonoBehaviour {
 
 	public string dialouge;
 	private DialougeManager dMan;
-   
+    public string[] dialougeLines;
+    public GameObject OpenPanel = null;
+
     // Use this for initialization
     void Start () {
 		dMan = FindObjectOfType<DialougeManager>();
@@ -17,14 +19,45 @@ public class DialougeHolder : MonoBehaviour {
 		
 	}
 
-	void OnTriggerStay2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            OpenPanel.SetActive(true);
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            OpenPanel.SetActive(false);
+        }
+    }
+
+    private bool IsOpenPanelActive
+    {
+        get
+        {
+            return OpenPanel.activeInHierarchy;
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D other)
 	{
 		if (other.gameObject.name == "Player") 
 		{
             //Debug.Log("Interacted");
-			if (Input.GetKeyUp(KeyCode.Space)) 
+			if (Input.GetKeyUp(KeyCode.E)) 
 			{
-				dMan.ShowBox(dialouge);
+                OpenPanel.SetActive(false);
+                //dMan.ShowBox(dialouge);
+                if(!dMan.dialougeActive)
+                {
+                    dMan.dialougeLines = dialougeLines;
+                    dMan.currentLine = 0;
+                    dMan.ShowDialouge();
+                }
 			}
 		}
 	}
