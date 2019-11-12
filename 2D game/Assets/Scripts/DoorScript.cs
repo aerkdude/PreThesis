@@ -9,6 +9,8 @@ public class DoorScript : MonoBehaviour {
     public Transform teLeportPosition;
     public DoorScript otherSide;
 
+    [SerializeField] private AudioSource OpenSound;
+
     void OnTriggerEnter2D(Collider2D other) 
 	{
 		if (other.tag == "Player")
@@ -43,6 +45,7 @@ public class DoorScript : MonoBehaviour {
                 GameObject player = GameObject.FindGameObjectWithTag("Player");
 
                 //Debug.Log("NextRoom");
+                OpenSound.Play();
                 player.transform.position = otherSide.teLeportPosition.position;
 
             }

@@ -10,8 +10,15 @@ public class PaperPickUp : MonoBehaviour
     public GameObject DoorDialougeZone;
     public GameObject DoorToForest;
 
+    //[SerializeField] private AudioSource PickUpSound;
+    //AudioSource audioSource;
+
+    //public AudioClip pickClip;
+
     private void Start()
     {
+        //audioSource = GameObject.Find("PaperPickUp").GetComponent<AudioSource>();
+        //audioSource.clip = pickClip;
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
     }
 
@@ -50,7 +57,9 @@ public class PaperPickUp : MonoBehaviour
                 if (inventory.isFull[i] == false)
                    inventory.isFull[i] = true;
                     Instantiate(itemButton, inventory.slots[i].transform, false);
-                    Destroy(gameObject);
+                    //audioSource.Play();
+                    //PickUpSound.Play();
+                    gameObject.SetActive(false);
                     DoorDialougeZone.SetActive(false);
                     DoorToForest.SetActive(true);
                     break;

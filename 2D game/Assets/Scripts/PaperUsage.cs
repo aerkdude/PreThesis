@@ -7,7 +7,7 @@ public class PaperUsage : MonoBehaviour
 {
     //public GameObject effect;
     private Transform player;
-    public Image Paper;
+    //public Image Paper;
 
     private void Start()
     {
@@ -18,7 +18,7 @@ public class PaperUsage : MonoBehaviour
     {
         //Instantiate(effect, player.position, Quaternion.identity);
         //Debug.Log("Item Used");
-        Paper.gameObject.SetActive(true);
+        //Paper.gameObject.SetActive(true);
         //Destroy(gameObject);
     }
 }

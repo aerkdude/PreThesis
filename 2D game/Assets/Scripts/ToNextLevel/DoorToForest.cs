@@ -9,6 +9,8 @@ public class DoorToForest : MonoBehaviour
     public GameObject FadeIn;
     //private Animator anim;
 
+    [SerializeField] private AudioSource OpenSound;
+
     void Start()
     {
         //anim = GetComponent<Animator>();
@@ -44,7 +46,7 @@ public class DoorToForest : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                Debug.Log("Sound");
+                OpenSound.Play();
                 FadeIn.SetActive(true);
                 //anim.Play("FadeIn");
                 StartCoroutine(LoadNextScene());
