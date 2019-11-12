@@ -89,6 +89,7 @@
      <Compile Include="Assets\Scripts\Teleport.cs" />
      <Compile Include="Assets\Scripts\TeleportwFade.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToBar.cs" />
+     <Compile Include="Assets\Scripts\ToNextLevel\DoorToBarChurchIn.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToChurch.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToForest.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToTown.cs" />

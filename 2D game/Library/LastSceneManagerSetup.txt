@@ -3,15 +3,19 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/Scene/Bar.unity
+- path: Assets/Scene/Forest.unity
   isLoaded: 0
   isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/Bar.unity
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
 - path: Assets/Scene/Town.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
 - path: Assets/Scene/Church.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0

@@ -57,6 +57,6 @@ public class DoorToChurch : MonoBehaviour
     IEnumerator LoadNextScene()
     {
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene("Chruch");
+        SceneManager.LoadScene("Church");
     }
 }
