@@ -98,6 +98,13 @@
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToForest.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToPuzzle.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToTown.cs" />
+     <Compile Include="Assets\Scripts\UI\BackToMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\ClickSound.cs" />
+     <Compile Include="Assets\Scripts\UI\EndText.cs" />
+     <Compile Include="Assets\Scripts\UI\ExitScript.cs" />
+     <Compile Include="Assets\Scripts\UI\RestartLV2S2Script.cs" />
+     <Compile Include="Assets\Scripts\UI\RestartLV2Script.cs" />
+     <Compile Include="Assets\Scripts\UI\RestartScript.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Github/Thesis/2D game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

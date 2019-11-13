@@ -1,25 +1,9 @@
 sceneSetups:
-- path: Assets/Scene/TestInv.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/BedRoom.unity
+- path: Assets/Scene/MainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
-- path: Assets/Scene/Forest.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/ChruchInterier.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/Bar.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/Puzzle1Test.unity
+- path: Assets/Scene/BedRoom.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
