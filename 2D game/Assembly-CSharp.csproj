@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\PickUpTest.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -86,12 +87,16 @@
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\RingPickUp.cs" />
      <Compile Include="Assets\Scripts\RotatePic.cs" />
+     <Compile Include="Assets\Scripts\SetActiveEndMapOne.cs" />
+     <Compile Include="Assets\Scripts\SimpleSetActive.cs" />
      <Compile Include="Assets\Scripts\Teleport.cs" />
      <Compile Include="Assets\Scripts\TeleportwFade.cs" />
+     <Compile Include="Assets\Scripts\Test\TestInventory.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToBar.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToBarChurchIn.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToChurch.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToForest.cs" />
+     <Compile Include="Assets\Scripts\ToNextLevel\DoorToPuzzle.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToTown.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="Unity.Timeline.Editor">
