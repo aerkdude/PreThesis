@@ -16,6 +16,6 @@ public class RestartScript : MonoBehaviour {
 	IEnumerator DelaySceneLoad()
 	{
 		yield return new WaitForSeconds(3);
-		SceneManager.LoadScene("BedRoom");
+		SceneManager.LoadScene("IntroTemp");
 	}
 }

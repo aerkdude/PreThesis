@@ -55,7 +55,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PickUpTest.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -84,6 +83,7 @@
      <Compile Include="Assets\Scripts\PaperPickUp.cs" />
      <Compile Include="Assets\Scripts\PaperUsage.cs" />
      <Compile Include="Assets\Scripts\PickUp.cs" />
+     <Compile Include="Assets\Scripts\PickUpTest.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\RingPickUp.cs" />
      <Compile Include="Assets\Scripts\RotatePic.cs" />
@@ -98,10 +98,12 @@
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToForest.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToPuzzle.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToTown.cs" />
+     <Compile Include="Assets\Scripts\ToNextLevel\PressToBedroom.cs" />
      <Compile Include="Assets\Scripts\UI\BackToMenu.cs" />
      <Compile Include="Assets\Scripts\UI\ClickSound.cs" />
      <Compile Include="Assets\Scripts\UI\EndText.cs" />
      <Compile Include="Assets\Scripts\UI\ExitScript.cs" />
+     <Compile Include="Assets\Scripts\UI\Intro.cs" />
      <Compile Include="Assets\Scripts\UI\RestartLV2S2Script.cs" />
      <Compile Include="Assets\Scripts\UI\RestartLV2Script.cs" />
      <Compile Include="Assets\Scripts\UI\RestartScript.cs" />
