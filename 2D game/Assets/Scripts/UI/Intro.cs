@@ -7,6 +7,8 @@ public class Intro : MonoBehaviour
 {
     public GameObject TextOne;
     public GameObject TextTwo;
+    public GameObject TextThree;
+    public GameObject TextFour;
     public GameObject PressText;
     public GameObject ButtonController;
     
@@ -24,15 +26,31 @@ public class Intro : MonoBehaviour
 
     IEnumerator LoadNextText()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         TextOne.SetActive(false);
         TextTwo.SetActive(true);
+        StartCoroutine(LoadTextThree());
+    }
+
+    IEnumerator LoadTextThree()
+    {
+        yield return new WaitForSeconds(10);
+        TextTwo.SetActive(false);
+        TextThree.SetActive(true);
+        StartCoroutine(LoadTextFour());
+    }
+
+    IEnumerator LoadTextFour()
+    {
+        yield return new WaitForSeconds(10);
+        TextThree.SetActive(false);
+        TextFour.SetActive(true);
         StartCoroutine(LoadButton());
     }
 
     IEnumerator LoadButton()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         PressText.SetActive(true);
         ButtonController.SetActive(true);
     }
