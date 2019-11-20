@@ -7,7 +7,8 @@ public class PaperUsage : MonoBehaviour
 {
     //public GameObject effect;
     private Transform player;
-    //public Image Paper;
+    public Image Paper;
+    [SerializeField] private AudioSource PaperSound;
 
     private void Start()
     {
@@ -18,7 +19,15 @@ public class PaperUsage : MonoBehaviour
     {
         //Instantiate(effect, player.position, Quaternion.identity);
         //Debug.Log("Item Used");
-        //Paper.gameObject.SetActive(true);
+        PaperSound.Play();
+        StartCoroutine(CloseSelf());
+        Paper.gameObject.SetActive(true);
         //Destroy(gameObject);
+    }
+
+    IEnumerator CloseSelf()
+    {
+        yield return new WaitForSeconds(3);
+        Paper.gameObject.SetActive(false);
     }
 }
