@@ -5,6 +5,7 @@ using UnityEngine;
 public class SimplePressSetActive : MonoBehaviour
 {
     public GameObject activeObj;
+    public GameObject deactiveObj;
     public GameObject OpenPanel = null;
 
     private bool IsOpenPanelActive
@@ -35,7 +36,11 @@ public class SimplePressSetActive : MonoBehaviour
     {
         if (other.gameObject.name == "Player")
         {
-            activeObj.SetActive(true);
+            if (Input.GetKeyUp(KeyCode.E))
+            {
+               activeObj.SetActive(true);
+               deactiveObj.SetActive(false);
+            }
         }
     }
 }

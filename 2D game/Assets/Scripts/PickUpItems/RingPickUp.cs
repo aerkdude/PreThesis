@@ -6,17 +6,12 @@ public class RingPickUp : MonoBehaviour
 {
     private Inventory inventory;
     public GameObject OpenPanel = null;
-    public GameObject itemButton;
+    public GameObject RingButton;
     public GameObject invWall;
-
-    //AudioSource audioSource;
-
-    //public AudioClip pickClip;
+    public Dialouge dialouge;
 
     private void Start()
     {
-        //audioSource = GameObject.Find("PaperPickUp").GetComponent<AudioSource>();
-        //audioSource.clip = pickClip;
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
     }
 
@@ -54,10 +49,11 @@ public class RingPickUp : MonoBehaviour
                 {
                 if (inventory.isFull[i] == false)
                    inventory.isFull[i] = true;
-                    Instantiate(itemButton, inventory.slots[i].transform, false);
-                    //audioSource.Play();
+                    FindObjectOfType<DialougeManagerTest>().StartDialouge(dialouge);
+                    RingButton.SetActive(true);
                     gameObject.SetActive(false);
                     invWall.SetActive(false);
+                    Destroy(gameObject);
                     break;
                 }
             }
