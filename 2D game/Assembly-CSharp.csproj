@@ -86,6 +86,7 @@
      <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\OpenInventory.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\ItemUsage.cs" />
+     <Compile Include="Assets\Scripts\PickUpItems\KeyPickUp.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\PaperExit.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\PaperPickUp.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\PaperUsage.cs" />
