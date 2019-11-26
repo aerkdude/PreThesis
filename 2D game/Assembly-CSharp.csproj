@@ -76,6 +76,13 @@
      <Compile Include="Assets\Scripts\DoorScriptTest.cs" />
      <Compile Include="Assets\Scripts\ForceAudio.cs" />
      <Compile Include="Assets\Scripts\GameControl.cs" />
+     <Compile Include="Assets\Scripts\ImportedScripts\Dialouge.cs" />
+     <Compile Include="Assets\Scripts\ImportedScripts\DialougeManagerTest.cs" />
+     <Compile Include="Assets\Scripts\ImportedScripts\DialougeTrigger.cs" />
+     <Compile Include="Assets\Scripts\ImportedScripts\DialougeTriggerNPC.cs" />
+     <Compile Include="Assets\Scripts\ImportedScripts\DialougeTriggerNPCLoop.cs" />
+     <Compile Include="Assets\Scripts\ImportedScripts\DialougeTriggerObject.cs" />
+     <Compile Include="Assets\Scripts\ImportedScripts\DialougeTriggerTom.cs" />
      <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\OpenInventory.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\ItemUsage.cs" />
@@ -89,7 +96,7 @@
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\RotatePic.cs" />
      <Compile Include="Assets\Scripts\SetActiveEndMapOne.cs" />
-     <Compile Include="Assets\Scripts\SimpleSetActive.cs" />
+     <Compile Include="Assets\Scripts\SimplePressSetActive.cs" />
      <Compile Include="Assets\Scripts\Teleport.cs" />
      <Compile Include="Assets\Scripts\TeleportwFade.cs" />
      <Compile Include="Assets\Scripts\Test\TestInventory.cs" />
@@ -100,6 +107,9 @@
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToPuzzle.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToTown.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\PressToBedroom.cs" />
+     <Compile Include="Assets\Scripts\TutorialScripts\TutorialBoxThree.cs" />
+     <Compile Include="Assets\Scripts\TutorialScripts\TutorialManager.cs" />
+     <Compile Include="Assets\Scripts\TutorialScripts\TypeWriterEffect.cs" />
      <Compile Include="Assets\Scripts\UI\BackToMenu.cs" />
      <Compile Include="Assets\Scripts\UI\ClickSound.cs" />
      <Compile Include="Assets\Scripts\UI\EndText.cs" />
