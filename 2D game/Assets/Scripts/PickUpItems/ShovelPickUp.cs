@@ -6,17 +6,14 @@ public class ShovelPickUp : MonoBehaviour
 {
     private Inventory inventory;
     public GameObject OpenPanel = null;
-    public GameObject itemButton;
-    public GameObject invWall;
-
-    //AudioSource audioSource;
-
-    //public AudioClip pickClip;
+    public GameObject shovelButton;
+    public GameObject dialougeZone;
+    public GameObject doorToUpstairOld;
+    public GameObject doorToUpstairLock;
+    public Dialouge dialouge;
 
     private void Start()
     {
-        //audioSource = GameObject.Find("PaperPickUp").GetComponent<AudioSource>();
-        //audioSource.clip = pickClip;
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
     }
 
@@ -54,10 +51,12 @@ public class ShovelPickUp : MonoBehaviour
                 {
                 if (inventory.isFull[i] == false)
                    inventory.isFull[i] = true;
-                    Instantiate(itemButton, inventory.slots[i].transform, false);
-                    //audioSource.Play();
-                    gameObject.SetActive(false);
-                    invWall.SetActive(true);
+                    FindObjectOfType<DialougeManagerTest>().StartDialouge(dialouge);
+                    shovelButton.SetActive(true);
+                    doorToUpstairOld.SetActive(false);
+                    doorToUpstairLock.SetActive(true);
+                    dialougeZone.SetActive(true);
+                    Destroy(gameObject);
                     break;
                 }
             }

@@ -9,6 +9,7 @@ public class KeyPickUp : MonoBehaviour
     public GameObject KeyButton;
     public GameObject doorDialougeZone;
     public GameObject doorToBasement;
+    public Dialouge dialouge;
 
     private void Start()
     {
@@ -49,6 +50,7 @@ public class KeyPickUp : MonoBehaviour
                 {
                 if (inventory.isFull[i] == false)
                     inventory.isFull[i] = true;
+                    FindObjectOfType<DialougeManagerTest>().StartDialouge(dialouge);
                     KeyButton.SetActive(true);
                     doorDialougeZone.SetActive(false);
                     doorToBasement.SetActive(true);
