@@ -11,9 +11,7 @@ public class GameControl : MonoBehaviour
     [SerializeField]
     private GameObject winText;
 
-    [SerializeField]
-    private AudioSource winSound;
-
+    public GameObject FadeIn;
     public static bool youWin;
 
     void Start ()
@@ -33,14 +31,14 @@ public class GameControl : MonoBehaviour
         {
             youWin = true;
             winText.SetActive(true);
-            winSound.Play();
+            FadeIn.SetActive(true);
             StartCoroutine(LoadNextScene());
         }
     }
 
     IEnumerator LoadNextScene()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(4);
         SceneManager.LoadScene("EndRoom");   
     }
 }
