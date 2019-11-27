@@ -70,10 +70,12 @@
      <Compile Include="Assets\Scripts\Dialouge\DialougeHolderForce.cs" />
      <Compile Include="Assets\Scripts\Dialouge\DialougeHolderForSP.cs" />
      <Compile Include="Assets\Scripts\Dialouge\DialougeManager.cs" />
+     <Compile Include="Assets\Scripts\Dialouge\DialougeManagerTestMonster.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\DoorLock.cs" />
      <Compile Include="Assets\Scripts\DoorScript.cs" />
      <Compile Include="Assets\Scripts\DoorScriptTest.cs" />
+     <Compile Include="Assets\Scripts\EnemyFollow.cs" />
      <Compile Include="Assets\Scripts\ForceAudio.cs" />
      <Compile Include="Assets\Scripts\GameControl.cs" />
      <Compile Include="Assets\Scripts\ImportedScripts\Dialouge.cs" />
@@ -82,6 +84,7 @@
      <Compile Include="Assets\Scripts\ImportedScripts\DialougeTriggerNPC.cs" />
      <Compile Include="Assets\Scripts\ImportedScripts\DialougeTriggerNPCLoop.cs" />
      <Compile Include="Assets\Scripts\ImportedScripts\DialougeTriggerObject.cs" />
+     <Compile Include="Assets\Scripts\ImportedScripts\DialougeTriggerPastor.cs" />
      <Compile Include="Assets\Scripts\ImportedScripts\DialougeTriggerTom.cs" />
      <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\OpenInventory.cs" />
@@ -100,12 +103,14 @@
      <Compile Include="Assets\Scripts\SetActiveEndMapOne.cs" />
      <Compile Include="Assets\Scripts\SimplePressSetActive.cs" />
      <Compile Include="Assets\Scripts\SimpleSetActive.cs" />
+     <Compile Include="Assets\Scripts\SimpleSetActiveDeActive.cs" />
      <Compile Include="Assets\Scripts\Teleport.cs" />
      <Compile Include="Assets\Scripts\TeleportwFade.cs" />
      <Compile Include="Assets\Scripts\Test\TestInventory.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToBar.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToBarChurchIn.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToChurch.cs" />
+     <Compile Include="Assets\Scripts\ToNextLevel\DoorToEpTwo.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToForest.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToPuzzle.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToTown.cs" />

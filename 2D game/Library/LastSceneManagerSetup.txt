@@ -28,16 +28,16 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Scene/ChruchInterier.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
 - path: Assets/Scene/Puzzle1Test.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
 - path: Assets/Scene/EndRoom.unity
-  isLoaded: 0
-  isActive: 0
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
 - path: Assets/Scene/TestInv.unity
   isLoaded: 0
