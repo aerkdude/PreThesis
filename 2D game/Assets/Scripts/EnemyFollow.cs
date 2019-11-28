@@ -19,7 +19,7 @@ public class EnemyFollow : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, Target.position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, new Vector2(Target.position.x, transform.position.y), speed * Time.deltaTime);
     }
 
     void OnTriggerEnter2D(Collider2D other)
