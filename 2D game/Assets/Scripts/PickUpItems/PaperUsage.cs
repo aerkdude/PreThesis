@@ -21,6 +21,11 @@ public class PaperUsage : MonoBehaviour
         Paper.gameObject.SetActive(true);
     }
 
+    public void Close()
+    {
+        Paper.gameObject.SetActive(false);
+    }
+
     IEnumerator CloseSelf()
     {
         yield return new WaitForSeconds(3);

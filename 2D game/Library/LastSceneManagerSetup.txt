@@ -1,15 +1,15 @@
 sceneSetups:
 - path: Assets/Scene/MainMenu.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
 - path: Assets/Scene/IntroTemp.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
 - path: Assets/Scene/BedRoom.unity
-  isLoaded: 0
-  isActive: 0
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
 - path: Assets/Scene/Forest.unity
   isLoaded: 0
