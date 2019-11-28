@@ -10,6 +10,7 @@ public class BackToMenu : MonoBehaviour {
     public void ToMainMenu()
 	{
         FadeIn.SetActive(true);
+        Time.timeScale = 1f;
         StartCoroutine(DelaySceneLoad());
 	}
 
