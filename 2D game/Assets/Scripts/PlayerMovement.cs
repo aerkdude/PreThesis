@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
 
 	public int playerSpeed = 10;
-	//private bool facingRight = false;
+    //private bool facingRight = false;
+    public int playerJumpPower = 1250;
     private float moveX;
     public bool canMove;
     //public AudioSource FootStep;
@@ -28,7 +29,11 @@ public class PlayerMovement : MonoBehaviour {
 	void PlayerMove() {
 		//Player Control
 		moveX = Input.GetAxis ("Horizontal");
-		//Animations
+        if (Input.GetButtonDown ("Jump"))
+        {
+            Jump();
+        }
+		
         if (moveX != 0)
         {
             
@@ -49,6 +54,11 @@ public class PlayerMovement : MonoBehaviour {
 		//Physics
 		gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2 (moveX * playerSpeed, gameObject.GetComponent<Rigidbody2D>().velocity.y);
 	}
+
+    void Jump()
+    {
+        GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
+    }
 
 	/*void FlipPlayer()
     {

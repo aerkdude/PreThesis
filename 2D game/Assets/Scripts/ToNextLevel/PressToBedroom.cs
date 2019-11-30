@@ -9,7 +9,7 @@ public class PressToBedroom : MonoBehaviour
     
    void Update()
    {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Return))
         {
             //Debug.Log("Press");
             FadeIn.SetActive(true);
