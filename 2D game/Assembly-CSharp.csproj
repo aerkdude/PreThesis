@@ -100,6 +100,10 @@
      <Compile Include="Assets\Scripts\PickUpItems\RingUsage.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\ShovelPickUp.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PlayerTwo.cs" />
+     <Compile Include="Assets\Scripts\Potions\PotionController.cs" />
+     <Compile Include="Assets\Scripts\Potions\Potions.cs" />
+     <Compile Include="Assets\Scripts\Potions\PotionUsage.cs" />
      <Compile Include="Assets\Scripts\RotatePic.cs" />
      <Compile Include="Assets\Scripts\SetActiveEndMapOne.cs" />
      <Compile Include="Assets\Scripts\SimplePressSetActive.cs" />
