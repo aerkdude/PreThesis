@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
-	public int playerSpeed = 10;
-    //private bool facingRight = false;
+    //Player Movement
+    public int playerSpeed = 10;
     public int playerJumpPower = 1250;
     private float moveX;
     public bool canMove;
-    //public AudioSource FootStep;
+    private float canJump = 0f;
 
     void Start ()
     {
@@ -29,26 +29,28 @@ public class PlayerMovement : MonoBehaviour {
 	void PlayerMove() {
 		//Player Control
 		moveX = Input.GetAxis ("Horizontal");
-        if (Input.GetButtonDown ("Jump"))
+        if (Input.GetButtonDown ("Jump") && Time.time > canJump)
         {
             Jump();
+            canJump = Time.time + 1f;
         }
 		
         if (moveX != 0)
         {
-            
             GetComponent<Animator>().SetBool("IsWalking", true);
-        } else {
-            //FootStep.Play();
+        }
+        else
+        {
             GetComponent<Animator>().SetBool("IsWalking", false);
         }
 		//Player Direction
-		if (moveX < 0.0f) {
+		if (moveX < 0.0f)
+        {
             GetComponent<SpriteRenderer>().flipX = true;
-			//FlipPlayer ();
-		} else if (moveX > 0.0f) {
+	    }
+        else if (moveX > 0.0f)
+        {
             GetComponent<SpriteRenderer>().flipX = false;
-            //FlipPlayer ();
         }
 
 		//Physics
@@ -59,12 +61,4 @@ public class PlayerMovement : MonoBehaviour {
     {
         GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
     }
-
-	/*void FlipPlayer()
-    {
-		facingRight = !facingRight;
-		Vector2 localScale = gameObject.transform.localScale;
-		localScale.x *= -1;
-		transform.localScale = localScale;
-	}*/
 }
