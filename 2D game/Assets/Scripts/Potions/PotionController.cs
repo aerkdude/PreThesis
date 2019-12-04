@@ -24,7 +24,7 @@ public class PotionController : MonoBehaviour
         {
             PlayerTwo.currentHealth += 5;
             AmountHPSmall--;
-            ChackMaxHP();
+            //ChackMaxHP();
         }
     }
 
