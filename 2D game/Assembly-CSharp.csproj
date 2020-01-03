@@ -81,6 +81,7 @@
      <Compile Include="Assets\Scripts\GameControl.cs" />
      <Compile Include="Assets\Scripts\ImportedScripts\Dialouge.cs" />
      <Compile Include="Assets\Scripts\ImportedScripts\DialougeManagerTest.cs" />
+     <Compile Include="Assets\Scripts\ImportedScripts\DialougeManagerTestTwo.cs" />
      <Compile Include="Assets\Scripts\ImportedScripts\DialougeTrigger.cs" />
      <Compile Include="Assets\Scripts\ImportedScripts\DialougeTriggerNPC.cs" />
      <Compile Include="Assets\Scripts\ImportedScripts\DialougeTriggerNPCLoop.cs" />

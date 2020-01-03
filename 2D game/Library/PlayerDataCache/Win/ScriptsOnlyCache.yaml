@@ -66,10 +66,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -118,61 +116,61 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 9360}
     - Class: 114
-      Script: {instanceID: 9442}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9600}
+      Script: {instanceID: 9542}
     - Class: 114
-      Script: {instanceID: 9622}
+      Script: {instanceID: 9564}
     - Class: 114
-      Script: {instanceID: 9660}
+      Script: {instanceID: 9602}
     - Class: 114
-      Script: {instanceID: 9698}
+      Script: {instanceID: 9638}
     - Class: 114
-      Script: {instanceID: 9738}
+      Script: {instanceID: 9676}
     - Class: 114
-      Script: {instanceID: 9744}
+      Script: {instanceID: 9682}
     - Class: 114
-      Script: {instanceID: 9750}
+      Script: {instanceID: 9688}
     - Class: 114
-      Script: {instanceID: 9794}
+      Script: {instanceID: 9732}
     - Class: 114
-      Script: {instanceID: 9836}
+      Script: {instanceID: 9774}
     - Class: 114
-      Script: {instanceID: 9846}
+      Script: {instanceID: 9784}
     - Class: 114
-      Script: {instanceID: 9866}
+      Script: {instanceID: 9804}
     - Class: 114
-      Script: {instanceID: 9898}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 10098}
+      Script: {instanceID: 10034}
     - Class: 114
-      Script: {instanceID: 10300}
+      Script: {instanceID: 10084}
     - Class: 114
-      Script: {instanceID: 10388}
+      Script: {instanceID: 10126}
     - Class: 114
-      Script: {instanceID: 10510}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 10558}
+      Script: {instanceID: 10286}
     - Class: 114
-      Script: {instanceID: 10632}
+      Script: {instanceID: 10358}
     - Class: 114
-      Script: {instanceID: 10882}
+      Script: {instanceID: 10604}
     - Class: 114
-      Script: {instanceID: 10930}
+      Script: {instanceID: 10650}
     - Class: 114
-      Script: {instanceID: 10966}
+      Script: {instanceID: 10686}
     - Class: 114
-      Script: {instanceID: 11282}
+      Script: {instanceID: 10998}
     - Class: 114
-      Script: {instanceID: 11288}
+      Script: {instanceID: 11004}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 11030}
     - Class: 114
-      Script: {instanceID: 11320}
+      Script: {instanceID: 11032}
     - Class: 114
-      Script: {instanceID: 11344}
+      Script: {instanceID: 11056}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -227,65 +225,65 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 9360}
     - Class: 114
-      Script: {instanceID: 9442}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9600}
+      Script: {instanceID: 9542}
     - Class: 114
-      Script: {instanceID: 9622}
+      Script: {instanceID: 9564}
     - Class: 114
-      Script: {instanceID: 9660}
+      Script: {instanceID: 9602}
     - Class: 114
-      Script: {instanceID: 9738}
+      Script: {instanceID: 9676}
     - Class: 114
-      Script: {instanceID: 9744}
+      Script: {instanceID: 9682}
     - Class: 114
-      Script: {instanceID: 9750}
+      Script: {instanceID: 9688}
     - Class: 114
-      Script: {instanceID: 9794}
+      Script: {instanceID: 9732}
     - Class: 114
-      Script: {instanceID: 9836}
+      Script: {instanceID: 9774}
     - Class: 114
-      Script: {instanceID: 9846}
+      Script: {instanceID: 9784}
     - Class: 114
-      Script: {instanceID: 9866}
+      Script: {instanceID: 9804}
     - Class: 114
-      Script: {instanceID: 9898}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 9932}
+      Script: {instanceID: 9868}
     - Class: 114
-      Script: {instanceID: 10002}
+      Script: {instanceID: 9938}
     - Class: 114
-      Script: {instanceID: 10098}
+      Script: {instanceID: 10034}
     - Class: 114
-      Script: {instanceID: 10300}
+      Script: {instanceID: 10084}
     - Class: 114
-      Script: {instanceID: 10446}
+      Script: {instanceID: 10180}
     - Class: 114
-      Script: {instanceID: 10510}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 10636}
+      Script: {instanceID: 10362}
     - Class: 114
-      Script: {instanceID: 10882}
+      Script: {instanceID: 10604}
     - Class: 114
-      Script: {instanceID: 10930}
+      Script: {instanceID: 10650}
     - Class: 114
-      Script: {instanceID: 10966}
+      Script: {instanceID: 10686}
     - Class: 114
-      Script: {instanceID: 10990}
+      Script: {instanceID: 10710}
     - Class: 114
-      Script: {instanceID: 11188}
+      Script: {instanceID: 10904}
     - Class: 114
-      Script: {instanceID: 11282}
+      Script: {instanceID: 10998}
     - Class: 114
-      Script: {instanceID: 11288}
+      Script: {instanceID: 11004}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 11030}
     - Class: 114
-      Script: {instanceID: 11320}
+      Script: {instanceID: 11032}
     - Class: 114
-      Script: {instanceID: 11344}
+      Script: {instanceID: 11056}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -340,71 +338,71 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 9360}
     - Class: 114
-      Script: {instanceID: 9440}
+      Script: {instanceID: 9384}
     - Class: 114
-      Script: {instanceID: 9442}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9562}
+      Script: {instanceID: 9504}
     - Class: 114
-      Script: {instanceID: 9600}
+      Script: {instanceID: 9542}
     - Class: 114
-      Script: {instanceID: 9622}
+      Script: {instanceID: 9564}
     - Class: 114
-      Script: {instanceID: 9660}
+      Script: {instanceID: 9602}
     - Class: 114
-      Script: {instanceID: 9738}
+      Script: {instanceID: 9676}
     - Class: 114
-      Script: {instanceID: 9744}
+      Script: {instanceID: 9682}
     - Class: 114
-      Script: {instanceID: 9750}
+      Script: {instanceID: 9688}
     - Class: 114
-      Script: {instanceID: 9794}
+      Script: {instanceID: 9732}
     - Class: 114
-      Script: {instanceID: 9836}
+      Script: {instanceID: 9774}
     - Class: 114
-      Script: {instanceID: 9846}
+      Script: {instanceID: 9784}
     - Class: 114
-      Script: {instanceID: 9866}
+      Script: {instanceID: 9804}
     - Class: 114
-      Script: {instanceID: 9898}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 9968}
+      Script: {instanceID: 9904}
     - Class: 114
-      Script: {instanceID: 9976}
+      Script: {instanceID: 9912}
     - Class: 114
-      Script: {instanceID: 10098}
+      Script: {instanceID: 10034}
     - Class: 114
-      Script: {instanceID: 10300}
+      Script: {instanceID: 10084}
     - Class: 114
-      Script: {instanceID: 10388}
+      Script: {instanceID: 10126}
     - Class: 114
-      Script: {instanceID: 10510}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 10558}
+      Script: {instanceID: 10286}
     - Class: 114
-      Script: {instanceID: 10652}
+      Script: {instanceID: 10380}
     - Class: 114
-      Script: {instanceID: 10882}
+      Script: {instanceID: 10604}
     - Class: 114
-      Script: {instanceID: 10930}
+      Script: {instanceID: 10650}
     - Class: 114
-      Script: {instanceID: 10966}
+      Script: {instanceID: 10686}
     - Class: 114
-      Script: {instanceID: 10990}
+      Script: {instanceID: 10710}
     - Class: 114
-      Script: {instanceID: 11282}
+      Script: {instanceID: 10998}
     - Class: 114
-      Script: {instanceID: 11288}
+      Script: {instanceID: 11004}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 11030}
     - Class: 114
-      Script: {instanceID: 11320}
+      Script: {instanceID: 11032}
     - Class: 114
-      Script: {instanceID: 11344}
+      Script: {instanceID: 11056}
     - Class: 114
-      Script: {instanceID: 11454}
+      Script: {instanceID: 11090}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -463,57 +461,57 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 9360}
     - Class: 114
-      Script: {instanceID: 9442}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9562}
+      Script: {instanceID: 9504}
     - Class: 114
-      Script: {instanceID: 9600}
+      Script: {instanceID: 9542}
     - Class: 114
-      Script: {instanceID: 9622}
+      Script: {instanceID: 9564}
     - Class: 114
-      Script: {instanceID: 9660}
+      Script: {instanceID: 9602}
     - Class: 114
-      Script: {instanceID: 9738}
+      Script: {instanceID: 9676}
     - Class: 114
-      Script: {instanceID: 9744}
+      Script: {instanceID: 9682}
     - Class: 114
-      Script: {instanceID: 9750}
+      Script: {instanceID: 9688}
     - Class: 114
-      Script: {instanceID: 9794}
+      Script: {instanceID: 9732}
     - Class: 114
-      Script: {instanceID: 9846}
+      Script: {instanceID: 9784}
     - Class: 114
-      Script: {instanceID: 9866}
+      Script: {instanceID: 9804}
     - Class: 114
-      Script: {instanceID: 9898}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 10098}
+      Script: {instanceID: 10034}
     - Class: 114
-      Script: {instanceID: 10300}
+      Script: {instanceID: 10084}
     - Class: 114
-      Script: {instanceID: 10510}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 10558}
+      Script: {instanceID: 10286}
     - Class: 114
-      Script: {instanceID: 10882}
+      Script: {instanceID: 10604}
     - Class: 114
-      Script: {instanceID: 10930}
+      Script: {instanceID: 10650}
     - Class: 114
-      Script: {instanceID: 10966}
+      Script: {instanceID: 10686}
     - Class: 114
-      Script: {instanceID: 11240}
+      Script: {instanceID: 10956}
     - Class: 114
-      Script: {instanceID: 11282}
+      Script: {instanceID: 10998}
     - Class: 114
-      Script: {instanceID: 11288}
+      Script: {instanceID: 11004}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 11030}
     - Class: 114
-      Script: {instanceID: 11320}
+      Script: {instanceID: 11032}
     - Class: 114
-      Script: {instanceID: 11344}
+      Script: {instanceID: 11056}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -568,71 +566,71 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 9360}
     - Class: 114
-      Script: {instanceID: 9442}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9600}
+      Script: {instanceID: 9542}
     - Class: 114
-      Script: {instanceID: 9622}
+      Script: {instanceID: 9564}
     - Class: 114
-      Script: {instanceID: 9660}
+      Script: {instanceID: 9602}
     - Class: 114
-      Script: {instanceID: 9738}
+      Script: {instanceID: 9676}
     - Class: 114
-      Script: {instanceID: 9744}
+      Script: {instanceID: 9682}
     - Class: 114
-      Script: {instanceID: 9750}
+      Script: {instanceID: 9688}
     - Class: 114
-      Script: {instanceID: 9794}
+      Script: {instanceID: 9732}
     - Class: 114
-      Script: {instanceID: 9846}
+      Script: {instanceID: 9784}
     - Class: 114
-      Script: {instanceID: 9866}
+      Script: {instanceID: 9804}
     - Class: 114
-      Script: {instanceID: 9878}
+      Script: {instanceID: 9816}
     - Class: 114
-      Script: {instanceID: 9898}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 9928}
+      Script: {instanceID: 9864}
     - Class: 114
-      Script: {instanceID: 10190}
+      Script: {instanceID: 10050}
     - Class: 114
-      Script: {instanceID: 10300}
+      Script: {instanceID: 10084}
     - Class: 114
-      Script: {instanceID: 10324}
+      Script: {instanceID: 10108}
     - Class: 114
-      Script: {instanceID: 10388}
+      Script: {instanceID: 10126}
     - Class: 114
-      Script: {instanceID: 10446}
+      Script: {instanceID: 10180}
     - Class: 114
-      Script: {instanceID: 10510}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 10558}
+      Script: {instanceID: 10286}
     - Class: 114
-      Script: {instanceID: 10644}
+      Script: {instanceID: 10372}
     - Class: 114
-      Script: {instanceID: 10882}
+      Script: {instanceID: 10604}
     - Class: 114
-      Script: {instanceID: 10930}
+      Script: {instanceID: 10650}
     - Class: 114
-      Script: {instanceID: 10966}
+      Script: {instanceID: 10686}
     - Class: 114
-      Script: {instanceID: 11060}
+      Script: {instanceID: 10780}
     - Class: 114
-      Script: {instanceID: 11080}
+      Script: {instanceID: 10798}
     - Class: 114
-      Script: {instanceID: 11092}
+      Script: {instanceID: 10810}
     - Class: 114
-      Script: {instanceID: 11282}
+      Script: {instanceID: 10998}
     - Class: 114
-      Script: {instanceID: 11288}
+      Script: {instanceID: 11004}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 11030}
     - Class: 114
-      Script: {instanceID: 11320}
+      Script: {instanceID: 11032}
     - Class: 114
-      Script: {instanceID: 11344}
+      Script: {instanceID: 11056}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -687,67 +685,67 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 9360}
     - Class: 114
-      Script: {instanceID: 9442}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9600}
+      Script: {instanceID: 9542}
     - Class: 114
-      Script: {instanceID: 9622}
+      Script: {instanceID: 9564}
     - Class: 114
-      Script: {instanceID: 9660}
+      Script: {instanceID: 9602}
     - Class: 114
-      Script: {instanceID: 9738}
+      Script: {instanceID: 9676}
     - Class: 114
-      Script: {instanceID: 9744}
+      Script: {instanceID: 9682}
     - Class: 114
-      Script: {instanceID: 9750}
+      Script: {instanceID: 9688}
     - Class: 114
-      Script: {instanceID: 9794}
+      Script: {instanceID: 9732}
     - Class: 114
-      Script: {instanceID: 9836}
+      Script: {instanceID: 9774}
     - Class: 114
-      Script: {instanceID: 9846}
+      Script: {instanceID: 9784}
     - Class: 114
-      Script: {instanceID: 9866}
+      Script: {instanceID: 9804}
     - Class: 114
-      Script: {instanceID: 9898}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 10098}
+      Script: {instanceID: 9864}
     - Class: 114
-      Script: {instanceID: 10300}
+      Script: {instanceID: 10034}
     - Class: 114
-      Script: {instanceID: 10322}
+      Script: {instanceID: 10084}
     - Class: 114
-      Script: {instanceID: 10388}
+      Script: {instanceID: 10106}
     - Class: 114
-      Script: {instanceID: 10446}
+      Script: {instanceID: 10126}
     - Class: 114
-      Script: {instanceID: 10510}
+      Script: {instanceID: 10180}
     - Class: 114
-      Script: {instanceID: 10590}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 10632}
+      Script: {instanceID: 10316}
     - Class: 114
-      Script: {instanceID: 10652}
+      Script: {instanceID: 10358}
     - Class: 114
-      Script: {instanceID: 10882}
+      Script: {instanceID: 10380}
     - Class: 114
-      Script: {instanceID: 10930}
+      Script: {instanceID: 10604}
     - Class: 114
-      Script: {instanceID: 10966}
+      Script: {instanceID: 10650}
     - Class: 114
-      Script: {instanceID: 11282}
+      Script: {instanceID: 10686}
     - Class: 114
-      Script: {instanceID: 11288}
+      Script: {instanceID: 10998}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 11004}
     - Class: 114
-      Script: {instanceID: 11320}
+      Script: {instanceID: 11030}
     - Class: 114
-      Script: {instanceID: 11344}
+      Script: {instanceID: 11032}
     - Class: 114
-      Script: {instanceID: 11454}
+      Script: {instanceID: 11056}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -794,23 +792,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 9544}
+    - Class: 114
+      Script: {instanceID: 9550}
+    - Class: 114
+      Script: {instanceID: 9556}
+    - Class: 114
+      Script: {instanceID: 9564}
+    - Class: 114
+      Script: {instanceID: 9600}
+    - Class: 114
       Script: {instanceID: 9602}
     - Class: 114
-      Script: {instanceID: 9608}
+      Script: {instanceID: 10202}
     - Class: 114
-      Script: {instanceID: 9614}
+      Script: {instanceID: 10604}
     - Class: 114
-      Script: {instanceID: 9622}
-    - Class: 114
-      Script: {instanceID: 9658}
-    - Class: 114
-      Script: {instanceID: 9660}
-    - Class: 114
-      Script: {instanceID: 10470}
-    - Class: 114
-      Script: {instanceID: 10882}
-    - Class: 114
-      Script: {instanceID: 11462}
+      Script: {instanceID: 11098}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -855,25 +853,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 9542}
+    - Class: 114
+      Script: {instanceID: 9544}
+    - Class: 114
+      Script: {instanceID: 9550}
+    - Class: 114
+      Script: {instanceID: 9556}
+    - Class: 114
+      Script: {instanceID: 9564}
+    - Class: 114
       Script: {instanceID: 9600}
     - Class: 114
       Script: {instanceID: 9602}
     - Class: 114
-      Script: {instanceID: 9608}
+      Script: {instanceID: 10050}
     - Class: 114
-      Script: {instanceID: 9614}
+      Script: {instanceID: 10428}
     - Class: 114
-      Script: {instanceID: 9622}
-    - Class: 114
-      Script: {instanceID: 9658}
-    - Class: 114
-      Script: {instanceID: 9660}
-    - Class: 114
-      Script: {instanceID: 10190}
-    - Class: 114
-      Script: {instanceID: 10702}
-    - Class: 114
-      Script: {instanceID: 10882}
+      Script: {instanceID: 10604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -922,39 +920,39 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 9360}
     - Class: 114
-      Script: {instanceID: 9442}
+      Script: {instanceID: 9386}
+    - Class: 114
+      Script: {instanceID: 9544}
+    - Class: 114
+      Script: {instanceID: 9550}
+    - Class: 114
+      Script: {instanceID: 9556}
+    - Class: 114
+      Script: {instanceID: 9564}
+    - Class: 114
+      Script: {instanceID: 9600}
     - Class: 114
       Script: {instanceID: 9602}
     - Class: 114
-      Script: {instanceID: 9608}
+      Script: {instanceID: 9784}
     - Class: 114
-      Script: {instanceID: 9614}
+      Script: {instanceID: 9804}
     - Class: 114
-      Script: {instanceID: 9622}
+      Script: {instanceID: 9954}
     - Class: 114
-      Script: {instanceID: 9658}
+      Script: {instanceID: 10134}
     - Class: 114
-      Script: {instanceID: 9660}
+      Script: {instanceID: 10180}
     - Class: 114
-      Script: {instanceID: 9846}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 9866}
+      Script: {instanceID: 10288}
     - Class: 114
-      Script: {instanceID: 10020}
+      Script: {instanceID: 10604}
     - Class: 114
-      Script: {instanceID: 10396}
-    - Class: 114
-      Script: {instanceID: 10446}
-    - Class: 114
-      Script: {instanceID: 10510}
-    - Class: 114
-      Script: {instanceID: 10560}
-    - Class: 114
-      Script: {instanceID: 10882}
-    - Class: 114
-      Script: {instanceID: 11282}
+      Script: {instanceID: 10998}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1007,67 +1005,67 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 9360}
     - Class: 114
-      Script: {instanceID: 9442}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 9600}
+      Script: {instanceID: 9542}
     - Class: 114
-      Script: {instanceID: 9622}
+      Script: {instanceID: 9564}
     - Class: 114
-      Script: {instanceID: 9660}
+      Script: {instanceID: 9602}
     - Class: 114
-      Script: {instanceID: 9738}
+      Script: {instanceID: 9676}
     - Class: 114
-      Script: {instanceID: 9744}
+      Script: {instanceID: 9682}
     - Class: 114
-      Script: {instanceID: 9750}
+      Script: {instanceID: 9688}
     - Class: 114
-      Script: {instanceID: 9794}
+      Script: {instanceID: 9732}
     - Class: 114
-      Script: {instanceID: 9836}
+      Script: {instanceID: 9774}
     - Class: 114
-      Script: {instanceID: 9846}
+      Script: {instanceID: 9784}
     - Class: 114
-      Script: {instanceID: 9866}
+      Script: {instanceID: 9804}
     - Class: 114
-      Script: {instanceID: 9872}
+      Script: {instanceID: 9810}
     - Class: 114
-      Script: {instanceID: 9898}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 10098}
+      Script: {instanceID: 9864}
     - Class: 114
-      Script: {instanceID: 10300}
+      Script: {instanceID: 10034}
     - Class: 114
-      Script: {instanceID: 10388}
+      Script: {instanceID: 10084}
     - Class: 114
-      Script: {instanceID: 10446}
+      Script: {instanceID: 10126}
     - Class: 114
-      Script: {instanceID: 10510}
+      Script: {instanceID: 10180}
     - Class: 114
-      Script: {instanceID: 10558}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 10632}
+      Script: {instanceID: 10286}
     - Class: 114
-      Script: {instanceID: 10836}
+      Script: {instanceID: 10358}
     - Class: 114
-      Script: {instanceID: 10882}
+      Script: {instanceID: 10560}
     - Class: 114
-      Script: {instanceID: 10930}
+      Script: {instanceID: 10604}
     - Class: 114
-      Script: {instanceID: 10966}
+      Script: {instanceID: 10650}
     - Class: 114
-      Script: {instanceID: 11282}
+      Script: {instanceID: 10686}
     - Class: 114
-      Script: {instanceID: 11288}
+      Script: {instanceID: 10998}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 11004}
     - Class: 114
-      Script: {instanceID: 11320}
+      Script: {instanceID: 11030}
     - Class: 114
-      Script: {instanceID: 11344}
+      Script: {instanceID: 11032}
     - Class: 114
-      Script: {instanceID: 11454}
+      Script: {instanceID: 11056}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1167,6 +1165,12 @@ ScriptsOnlyBuild:
     className: SetActiveEndMapOne
   - hash:
       serializedVersion: 2
+      Hash: f8ff057ae82c10fa5b4b5fa956974f2e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PotionUsage
+  - hash:
+      serializedVersion: 2
       Hash: 3748fbad2d474a315bda516b8363a0c5
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Effects
@@ -1231,6 +1235,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 120bd443dd87082b61c6b68d00d8f2d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PotionController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1869,6 +1879,12 @@ ScriptsOnlyBuild:
     className: SimpleMouseRotator
   - hash:
       serializedVersion: 2
+      Hash: 19d72cd8ba4753c1617278e0fef16655
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Potions
+  - hash:
+      serializedVersion: 2
       Hash: 0fb27be807aa299702f28ad0bcad1f46
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1917,210 +1933,6 @@ ScriptsOnlyBuild:
     className: DialougeTriggerObject
   - hash:
       serializedVersion: 2
-      Hash: 0077fc8e4fbae67f80e80ebd534de5a0
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: AnchorBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: f8b139fcde9fda6214245df246415cc7
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: AnchorInputListenerBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: BackgroundPlaneBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: a8e431cd22067175e40e9a215394b9b9
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: CloudRecoBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: d0cc9c9c2236d0f19e2026d7dd502549
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ContentPositioningBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 9c087a1be3d3c41e67cb8ce893c53581
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: CylinderTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultInitializationErrorHandlerInternal
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultInitializationErrorHandlerPlaceHolder
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultModelRecoEventHandlerPlaceHolder
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultTrackableBehaviourPlaceholder
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GLErrorHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideView2DBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideView3DBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideViewCameraBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 297bb3168553c3955b1c71e1f37cf791
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideViewRenderingBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 3eb85da89644e0150b5905ee26ab3106
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ImageTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: b14bdc19729a47a24f3184da695f52b1
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: MaskOutBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 7f385624be48a4e21e0863bffeed51ba
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: MidAirPositionerBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: d538cbb7be9272f2d5d30e40452c1a06
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ModelRecoBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 57221787cfdde96aa02f5e94d4baa694
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ModelTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 14547531f97912f3c23f957c94259346
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: MultiTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: d9795bb3c27e6d2aed87319e0f6be069
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ObjectTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71f334637ad44c7e8e7abcaf5a4ed12a
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: PlaneFinderBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: PreviewModelTurnOffBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: TurnOffBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 9fa9f1030164f334ee65e118172f3e58
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: UserDefinedTargetBuildingBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VideoBackgroundBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 750cc4178ad07e7a593bb5184bbd10b5
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VirtualButtonBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 8971d09ce7f62d9b5b8044d33c0f78e5
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VuforiaBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: ffd8816d88b11c11d24af998cf7f948a
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VuforiaConfiguration
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: VuforiaMonoBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 69167579cf7fcbb2676fc1e675963dcd
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VuMarkBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: fbbf64dcbe0662e3eda1dec45ea8f895
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: WireframeBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: WireframeTrackableEventHandler
-  - hash:
-      serializedVersion: 2
       Hash: 88ea625a9e16abe72ee82a4dcd18c0fd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -2155,210 +1967,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CameraSwitch
-  - hash:
-      serializedVersion: 2
-      Hash: 0077fc8e4fbae67f80e80ebd534de5a0
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: AnchorBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: f8b139fcde9fda6214245df246415cc7
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: AnchorInputListenerBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: BackgroundPlaneBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: a8e431cd22067175e40e9a215394b9b9
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: CloudRecoBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: d0cc9c9c2236d0f19e2026d7dd502549
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ContentPositioningBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 9c087a1be3d3c41e67cb8ce893c53581
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: CylinderTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultInitializationErrorHandlerInternal
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultInitializationErrorHandlerPlaceHolder
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultModelRecoEventHandlerPlaceHolder
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultTrackableBehaviourPlaceholder
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GLErrorHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideView2DBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideView3DBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideViewCameraBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 297bb3168553c3955b1c71e1f37cf791
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideViewRenderingBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 3eb85da89644e0150b5905ee26ab3106
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ImageTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: b14bdc19729a47a24f3184da695f52b1
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: MaskOutBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 7f385624be48a4e21e0863bffeed51ba
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: MidAirPositionerBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: d538cbb7be9272f2d5d30e40452c1a06
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ModelRecoBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 57221787cfdde96aa02f5e94d4baa694
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ModelTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 14547531f97912f3c23f957c94259346
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: MultiTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: d9795bb3c27e6d2aed87319e0f6be069
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ObjectTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71f334637ad44c7e8e7abcaf5a4ed12a
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: PlaneFinderBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: PreviewModelTurnOffBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: TurnOffBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 9fa9f1030164f334ee65e118172f3e58
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: UserDefinedTargetBuildingBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VideoBackgroundBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 750cc4178ad07e7a593bb5184bbd10b5
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VirtualButtonBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 8971d09ce7f62d9b5b8044d33c0f78e5
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VuforiaBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: ffd8816d88b11c11d24af998cf7f948a
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VuforiaConfiguration
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: VuforiaMonoBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 69167579cf7fcbb2676fc1e675963dcd
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VuMarkBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: fbbf64dcbe0662e3eda1dec45ea8f895
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: WireframeBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: WireframeTrackableEventHandler
   - hash:
       serializedVersion: 2
       Hash: 0574135745ea880aa1c1be2f2057ab89
@@ -2659,6 +2267,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DoorToForest
+  - hash:
+      serializedVersion: 2
+      Hash: 63e3248dce87b698aaab180e7b4a0b99
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerTwo
   - hash:
       serializedVersion: 2
       Hash: 2294ba4929e515b4b46046eff1f6b057
@@ -3123,210 +2737,6 @@ ScriptsOnlyBuild:
     className: PaperUsage
   - hash:
       serializedVersion: 2
-      Hash: 0077fc8e4fbae67f80e80ebd534de5a0
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: AnchorBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: f8b139fcde9fda6214245df246415cc7
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: AnchorInputListenerBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: BackgroundPlaneBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: a8e431cd22067175e40e9a215394b9b9
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: CloudRecoBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: d0cc9c9c2236d0f19e2026d7dd502549
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ContentPositioningBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 9c087a1be3d3c41e67cb8ce893c53581
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: CylinderTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultInitializationErrorHandlerInternal
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultInitializationErrorHandlerPlaceHolder
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultModelRecoEventHandlerPlaceHolder
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultTrackableBehaviourPlaceholder
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GLErrorHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideView2DBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideView3DBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideViewCameraBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 297bb3168553c3955b1c71e1f37cf791
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideViewRenderingBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 3eb85da89644e0150b5905ee26ab3106
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ImageTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: b14bdc19729a47a24f3184da695f52b1
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: MaskOutBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 7f385624be48a4e21e0863bffeed51ba
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: MidAirPositionerBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: d538cbb7be9272f2d5d30e40452c1a06
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ModelRecoBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 57221787cfdde96aa02f5e94d4baa694
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ModelTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 14547531f97912f3c23f957c94259346
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: MultiTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: d9795bb3c27e6d2aed87319e0f6be069
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ObjectTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71f334637ad44c7e8e7abcaf5a4ed12a
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: PlaneFinderBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: PreviewModelTurnOffBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: TurnOffBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 9fa9f1030164f334ee65e118172f3e58
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: UserDefinedTargetBuildingBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VideoBackgroundBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 750cc4178ad07e7a593bb5184bbd10b5
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VirtualButtonBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 8971d09ce7f62d9b5b8044d33c0f78e5
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VuforiaBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: ffd8816d88b11c11d24af998cf7f948a
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VuforiaConfiguration
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: VuforiaMonoBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 69167579cf7fcbb2676fc1e675963dcd
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VuMarkBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: fbbf64dcbe0662e3eda1dec45ea8f895
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: WireframeBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: WireframeTrackableEventHandler
-  - hash:
-      serializedVersion: 2
       Hash: f8482d23d8fe0083916670bffc3176b6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -3369,210 +2779,6 @@ ScriptsOnlyBuild:
     className: PlatformerCharacter2D
   - hash:
       serializedVersion: 2
-      Hash: 0077fc8e4fbae67f80e80ebd534de5a0
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: AnchorBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: f8b139fcde9fda6214245df246415cc7
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: AnchorInputListenerBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: BackgroundPlaneBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: a8e431cd22067175e40e9a215394b9b9
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: CloudRecoBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: d0cc9c9c2236d0f19e2026d7dd502549
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ContentPositioningBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 9c087a1be3d3c41e67cb8ce893c53581
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: CylinderTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultInitializationErrorHandlerInternal
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultInitializationErrorHandlerPlaceHolder
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultModelRecoEventHandlerPlaceHolder
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: DefaultTrackableBehaviourPlaceholder
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GLErrorHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideView2DBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideView3DBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideViewCameraBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 297bb3168553c3955b1c71e1f37cf791
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: GuideViewRenderingBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 3eb85da89644e0150b5905ee26ab3106
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ImageTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: b14bdc19729a47a24f3184da695f52b1
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: MaskOutBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 7f385624be48a4e21e0863bffeed51ba
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: MidAirPositionerBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: d538cbb7be9272f2d5d30e40452c1a06
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ModelRecoBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 57221787cfdde96aa02f5e94d4baa694
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ModelTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 14547531f97912f3c23f957c94259346
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: MultiTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: d9795bb3c27e6d2aed87319e0f6be069
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: ObjectTargetBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71f334637ad44c7e8e7abcaf5a4ed12a
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: PlaneFinderBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: PreviewModelTurnOffBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: TurnOffBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 9fa9f1030164f334ee65e118172f3e58
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: UserDefinedTargetBuildingBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VideoBackgroundBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 750cc4178ad07e7a593bb5184bbd10b5
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VirtualButtonBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 8971d09ce7f62d9b5b8044d33c0f78e5
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VuforiaBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: ffd8816d88b11c11d24af998cf7f948a
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VuforiaConfiguration
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: 
-    className: VuforiaMonoBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 69167579cf7fcbb2676fc1e675963dcd
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: VuMarkBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: fbbf64dcbe0662e3eda1dec45ea8f895
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: WireframeBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Vuforia.UnityExtensions.dll
-    namespaceName: Vuforia
-    className: WireframeTrackableEventHandler
-  - hash:
-      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -3595,4 +2801,4 @@ ScriptsOnlyBuild:
   - Assets/Scene/ChruchInterier.unity
   - Assets/Scene/Puzzle1Test.unity
   - Assets/Scene/EndRoom.unity
-  playerPath: C:/Users/User/Desktop/M. People Vouge/M. People Vouge.exe
+  playerPath: C:/Users/film/Desktop/M People Vauge/M. People Vouge.exe

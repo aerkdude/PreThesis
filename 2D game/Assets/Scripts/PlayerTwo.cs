@@ -52,6 +52,15 @@ public class PlayerTwo : MonoBehaviour {
             canJump = Time.time + 1f;
         }
 
+        if (moveX != 0)
+        {
+            GetComponent<Animator>().SetBool("IsWalking", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("IsWalking", false);
+        }
+
         if (moveX < 0.0f)
         {
             GetComponent<SpriteRenderer>().flipX = true;
