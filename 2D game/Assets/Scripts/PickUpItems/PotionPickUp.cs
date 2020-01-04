@@ -7,8 +7,8 @@ public class PotionPickUp : MonoBehaviour
 {
     private Inventory inventory;
     public GameObject OpenPanel = null;
-    public GameObject PaperButton;
-    //public GameObject tutorialBoxThree;
+    public GameObject PotionButton;
+    public GameObject tutorialBox;
     public GameObject doorDialougeZone;
     public GameObject doorToLivingRoom;
     public GameObject HealthBar;
@@ -52,8 +52,9 @@ public class PotionPickUp : MonoBehaviour
                 {
                 if (inventory.isFull[i] == false)
                     inventory.isFull[i] = true;
-                    PaperButton.SetActive(true);
-                    //tutorialBoxThree.SetActive(true);
+                    PotionButton.SetActive(true);
+                    PotionController.AmountHPSmall += 1;
+                    tutorialBox.SetActive(true);
                     HealthBar.SetActive(true);
                     doorDialougeZone.SetActive(false);
                     doorToLivingRoom.SetActive(true);

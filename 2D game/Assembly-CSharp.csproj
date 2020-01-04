@@ -130,6 +130,7 @@
      <Compile Include="Assets\Scripts\TutorialScripts\TutorialBoxThree.cs" />
      <Compile Include="Assets\Scripts\TutorialScripts\TutorialManager.cs" />
      <Compile Include="Assets\Scripts\TutorialScripts\TutorialManagerPuzzleOne.cs" />
+     <Compile Include="Assets\Scripts\TutorialScripts\TutorialManagerTwo.cs" />
      <Compile Include="Assets\Scripts\TutorialScripts\TypeWriterEffect.cs" />
      <Compile Include="Assets\Scripts\UI\BackToMenu.cs" />
      <Compile Include="Assets\Scripts\UI\ClickSound.cs" />

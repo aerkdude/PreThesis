@@ -13,6 +13,6 @@ public class RestartLV2Script : MonoBehaviour {
 	IEnumerator DelaySceneLoad()
 	{
 		yield return new WaitForSeconds(1.0f);
-		SceneManager.LoadScene("Level02");
+		SceneManager.LoadScene("BedRoomLvl2");
 	}
 }
