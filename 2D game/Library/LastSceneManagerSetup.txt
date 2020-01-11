@@ -32,14 +32,14 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Scene/BedRoomLvl2.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
 - path: Assets/Scene/MainMenu.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
 - path: Assets/Scene/LevelOne/IntroTemp.unity
-  isLoaded: 0
-  isActive: 0
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0

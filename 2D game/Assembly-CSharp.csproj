@@ -127,6 +127,7 @@
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToPuzzle.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToTown.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\PressToBedroom.cs" />
+     <Compile Include="Assets\Scripts\ToNextLevel\SkipToBedroom.cs" />
      <Compile Include="Assets\Scripts\TutorialScripts\TutorialBoxThree.cs" />
      <Compile Include="Assets\Scripts\TutorialScripts\TutorialManager.cs" />
      <Compile Include="Assets\Scripts\TutorialScripts\TutorialManagerPuzzleOne.cs" />

@@ -54,6 +54,7 @@ ScriptsOnlyBuild:
     - SimplePressSetActive
     - SimpleSetActive
     - SimpleSetActiveDeActive
+    - SkipToBedroom
     - TutorialBoxThree
     - TutorialManager
     - TutorialManagerPuzzleOne
@@ -948,6 +949,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10612}
     - Class: 114
       Script: {instanceID: 11114}
+    - Class: 114
+      Script: {instanceID: 17170}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2976,6 +2979,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: AutoMobileShaderSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: eadacd859efb7cc350d7016de79f6b46
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SkipToBedroom
   platform: 5
   scenePathNames:
   - Assets/Scene/MainMenu.unity
@@ -2989,4 +2998,4 @@ ScriptsOnlyBuild:
   - Assets/Scene/LevelOne/Puzzle1Test.unity
   - Assets/Scene/LevelOne/EndRoom.unity
   - Assets/Scene/BedRoomLvl2.unity
-  playerPath: C:/Users/film/Desktop/M People Vauge/M. People Vouge.exe
+  playerPath: C:/Users/film/Desktop/M People Vouge/M. People Vouge.exe
