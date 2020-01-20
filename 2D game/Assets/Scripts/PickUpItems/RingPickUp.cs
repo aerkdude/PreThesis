@@ -8,6 +8,7 @@ public class RingPickUp : MonoBehaviour
     public GameObject OpenPanel = null;
     public GameObject RingButton;
     public GameObject invWall;
+    public GameObject Dummy;
     public Dialouge dialouge;
 
     private void Start()
@@ -53,6 +54,7 @@ public class RingPickUp : MonoBehaviour
                     RingButton.SetActive(true);
                     gameObject.SetActive(false);
                     invWall.SetActive(false);
+                    Dummy.SetActive(true);
                     Destroy(gameObject);
                     break;
                 }
