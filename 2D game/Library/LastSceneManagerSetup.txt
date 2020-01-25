@@ -1,7 +1,7 @@
 sceneSetups:
 - path: Assets/Scene/BedRoomLvl2.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
 - path: Assets/Scene/EndRoom2.unity
   isLoaded: 0
@@ -10,4 +10,12 @@ sceneSetups:
 - path: Assets/Scene/LevelOne/Town.unity
   isLoaded: 0
   isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelOne/EndRoom.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/TestPotion.unity
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
