@@ -1,13 +1,45 @@
 sceneSetups:
-- path: Assets/Scene/BedRoomLvl2.unity
-  isLoaded: 1
-  isActive: 1
+- path: Assets/Scene/LevelOne/BedRoom.unity
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
-- path: Assets/Scene/EndRoom2.unity
+- path: Assets/Scene/LevelOne/Forest.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
 - path: Assets/Scene/LevelOne/Town.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelOne/Bar.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelOne/Church.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelOne/ChruchInterier.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelOne/Puzzle1Test.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelOne/EndRoom.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/BedRoomLvl2.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+- path: Assets/Scene/MainMenu.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelOne/IntroTemp.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
