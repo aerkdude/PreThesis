@@ -97,6 +97,7 @@
      <Compile Include="Assets\Scripts\OpenInventory.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\ItemUsage.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\KeyPickUp.cs" />
+     <Compile Include="Assets\Scripts\PickUpItems\Level02\RingPickUpTwo.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\PaperExit.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\PaperPickUp.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\PaperUsage.cs" />
@@ -126,6 +127,7 @@
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToForest.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToPuzzle.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\DoorToTown.cs" />
+     <Compile Include="Assets\Scripts\ToNextLevel\LevelTwo\DoorToM.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\PressToBedroom.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\SkipToBedroom.cs" />
      <Compile Include="Assets\Scripts\TutorialScripts\TutorialBoxThree.cs" />
