@@ -8,6 +8,7 @@ public class DialougeManagerTestTwo : MonoBehaviour
     public Text nameText;
     public Text dialougeText;
     public GameObject dialougeBox;
+    public GameObject healthBarLock;
 
     private Queue<string> sentences;
     private PlayerTwo thePlayer;
@@ -30,7 +31,8 @@ public class DialougeManagerTestTwo : MonoBehaviour
     {
         thePlayer.canMove = false;
         dialougeBox.SetActive(true);
-        
+        healthBarLock.SetActive(true);
+
         nameText.text = dialouge.name;
 
         sentences.Clear();
@@ -69,6 +71,7 @@ public class DialougeManagerTestTwo : MonoBehaviour
     void EndDialouge()
     {
         dialougeBox.SetActive(false);
+        healthBarLock.SetActive(false);
         thePlayer.canMove = true;
     }
 }
