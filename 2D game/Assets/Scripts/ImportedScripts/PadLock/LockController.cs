@@ -8,6 +8,7 @@ public class LockController : MonoBehaviour
     private GameObject winText;
 
     public GameObject padLock;
+    public GameObject safeObj;
 
     private int[] result, correctCombination;
 
@@ -37,7 +38,6 @@ public class LockController : MonoBehaviour
         if (result[0] == correctCombination[0] && result[1] == correctCombination[1] && result[2] == correctCombination[2])
         {
             winText.SetActive(true);
-            Debug.Log("Opened!");
             StartCoroutine(ClosePadLock());
         }
     }
@@ -49,7 +49,9 @@ public class LockController : MonoBehaviour
 
     IEnumerator ClosePadLock()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(3);
+        winText.SetActive(false);
         padLock.SetActive(false);
+        safeObj.SetActive(false);
     }
 }
