@@ -9,13 +9,14 @@ public class LockController : MonoBehaviour
 
     public GameObject padLock;
     public GameObject safeObj;
+    public GameObject keyObj;
 
     private int[] result, correctCombination;
 
     private void Start()
     {
         result = new int[] { 5, 5, 5 };
-        correctCombination = new int[] { 3, 7, 9 };
+        correctCombination = new int[] { 3, 0, 1 };
         LockRotate.Rotated += CheckResults;
     }
 
@@ -53,5 +54,6 @@ public class LockController : MonoBehaviour
         winText.SetActive(false);
         padLock.SetActive(false);
         safeObj.SetActive(false);
+        keyObj.SetActive(true);
     }
 }
