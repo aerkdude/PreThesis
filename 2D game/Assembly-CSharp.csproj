@@ -140,6 +140,7 @@
      <Compile Include="Assets\Scripts\TutorialScripts\TutorialManagerTwo.cs" />
      <Compile Include="Assets\Scripts\TutorialScripts\TypeWriterEffect.cs" />
      <Compile Include="Assets\Scripts\UI\BackToMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\ButtonSound.cs" />
      <Compile Include="Assets\Scripts\UI\ClickSound.cs" />
      <Compile Include="Assets\Scripts\UI\DelayEndPic.cs" />
      <Compile Include="Assets\Scripts\UI\EndText.cs" />
