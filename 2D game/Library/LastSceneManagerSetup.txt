@@ -1,21 +1,5 @@
 sceneSetups:
-- path: Assets/Scene/LevelTwo/MRoom.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelTwo/BedRoomLvl2to2.unity
+- path: Assets/Scene/MainMenu.unity
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
-- path: Assets/Scene/TestPotion.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelTwo/BedRoomLvl2.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/MainMenu.unity
-  isLoaded: 0
-  isActive: 0
   isSubScene: 0
