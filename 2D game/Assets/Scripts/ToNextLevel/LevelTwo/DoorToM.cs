@@ -6,14 +6,23 @@ using UnityEngine.SceneManagement;
 public class DoorToM : MonoBehaviour
 {
     public GameObject FadeIn;
+    public PlayerTwo playerTwo;
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
-            FadeIn.SetActive(true);
-            StartCoroutine(LoadNextScene());
+            playerTwo.GetComponent<Animator>().SetTrigger("Dead");
+            playerTwo.canMove = false;
+            StartCoroutine(Fade());
         }
+    }
+
+    IEnumerator Fade()
+    {
+        yield return new WaitForSeconds(5);
+        FadeIn.SetActive(true);
+        StartCoroutine(LoadNextScene());
     }
 
     IEnumerator LoadNextScene()

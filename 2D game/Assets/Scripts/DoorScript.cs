@@ -8,6 +8,7 @@ public class DoorScript : MonoBehaviour {
 	public GameObject OpenPanel = null;
     public Transform teLeportPosition;
     public DoorScript otherSide;
+    public GameObject fadeAnim;
     public Animator transitionAnim;
 
     [SerializeField] private AudioSource OpenSound;
@@ -48,11 +49,17 @@ public class DoorScript : MonoBehaviour {
                 //Debug.Log("NextRoom");
                 OpenSound.Play();
                 player.transform.position = otherSide.teLeportPosition.position;
+                fadeAnim.SetActive(true);
                 transitionAnim.SetTrigger("end");
                 new WaitForSeconds(1.5f);
-
+                StartCoroutine(DestroySelf());
             }
         }
     }
 
+    IEnumerator DestroySelf()
+    {
+        yield return new WaitForSeconds(1.5f);
+        fadeAnim.SetActive(false);
+    }
 }

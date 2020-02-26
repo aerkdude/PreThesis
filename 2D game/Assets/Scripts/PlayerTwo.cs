@@ -82,5 +82,6 @@ public class PlayerTwo : MonoBehaviour {
     void Die()
     {
         Debug.Log("Dead");
+        GetComponent<Animator>().SetTrigger("Dead");
     }
 }
