@@ -4,14 +4,26 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Scene/LevelTwo/BedRoomLvl2to2.unity
-  isLoaded: 0
-  isActive: 0
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
 - path: Assets/Scene/TestInv.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
 - path: Assets/Scene/LevelTwo/BedRoomLvl2.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelOne/Forest.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelTwo/MRoom.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelOne/EndRoom.unity
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
