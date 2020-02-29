@@ -17,6 +17,10 @@ public class PlayerTwo : MonoBehaviour {
     public bool canMove;
     private float canJump = 0f;
 
+    //UI Image
+    public GameObject gameOverImage;
+    public GameObject fadeIn;
+
     void Start ()
     {
         currentHealth = maxHealth;
@@ -81,7 +85,20 @@ public class PlayerTwo : MonoBehaviour {
 
     void Die()
     {
-        Debug.Log("Dead");
         GetComponent<Animator>().SetTrigger("Dead");
+        StartCoroutine(FadeBlack());
+    }
+
+    IEnumerator FadeBlack()
+    {
+        yield return new WaitForSeconds(4);
+        fadeIn.SetActive(true);
+        StartCoroutine(DelayDeadPic());
+    }
+
+    IEnumerator DelayDeadPic()
+    {
+        yield return new WaitForSeconds(2);
+        gameOverImage.SetActive(true);
     }
 }

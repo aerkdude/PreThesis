@@ -2743,7 +2743,7 @@ ScriptsOnlyBuild:
     className: DoorToForest
   - hash:
       serializedVersion: 2
-      Hash: 63e3248dce87b698aaab180e7b4a0b99
+      Hash: 96b18db60d97d561bb544bf3d6018ae8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerTwo
