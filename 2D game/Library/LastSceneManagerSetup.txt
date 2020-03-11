@@ -19,6 +19,10 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
   isSubScene: 0
+- path: Assets/Scene/LevelOne/Town.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
 - path: Assets/Scene/LevelThree/NightCity.unity
   isLoaded: 1
   isActive: 1
