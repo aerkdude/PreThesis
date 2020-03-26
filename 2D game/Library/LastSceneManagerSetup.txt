@@ -1,28 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/LevelOne/BedRoom.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelTwo/BedRoomLvl2.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelTwo/MRoom.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelTwo/BedRoomLvl2to2.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/MainMenu.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelOne/Town.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
 - path: Assets/Scene/LevelThree/NightCity.unity
   isLoaded: 0
   isActive: 0
@@ -34,4 +10,8 @@ sceneSetups:
 - path: Assets/Scene/LevelThree/PoliceStation.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
+- path: Assets/Scene/LevelThree/ApartmentBlock.unity
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
