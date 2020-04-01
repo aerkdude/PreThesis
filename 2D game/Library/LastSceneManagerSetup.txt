@@ -1,7 +1,7 @@
 sceneSetups:
 - path: Assets/Scene/LevelThree/PoliceStation.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
 - path: Assets/Scene/LevelThree/ApartmentBlock.unity
   isLoaded: 0
@@ -10,4 +10,12 @@ sceneSetups:
 - path: Assets/Scene/LevelThree/CrimeRoom.unity
   isLoaded: 0
   isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelOne/Forest.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelOne/Town.unity
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
