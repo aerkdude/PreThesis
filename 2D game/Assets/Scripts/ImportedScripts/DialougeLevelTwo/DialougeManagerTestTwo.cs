@@ -21,7 +21,7 @@ public class DialougeManagerTestTwo : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetButtonDown("Fire1") || (Input.GetKeyDown(KeyCode.Return)))
         {
             DisplayNextSentence();
         }

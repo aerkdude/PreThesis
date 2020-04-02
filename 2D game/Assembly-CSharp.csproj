@@ -107,6 +107,7 @@
      <Compile Include="Assets\Scripts\PickUpItems\PickUpTest.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\PotionPickUp.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\RingPickUp.cs" />
+     <Compile Include="Assets\Scripts\PickUpItems\RingPickUpThree.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\RingUsage.cs" />
      <Compile Include="Assets\Scripts\PickUpItems\ShovelPickUp.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
