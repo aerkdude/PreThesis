@@ -4,22 +4,26 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Scene/LevelThree/ApartmentBlock.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0
 - path: Assets/Scene/LevelThree/CrimeRoom.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/Scene/LevelOne/Forest.unity
+- path: Assets/Scene/LevelThree/ForestThree.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/Scene/LevelOne/Town.unity
+- path: Assets/Scene/LevelThree/NightCity.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/Scene/LevelTwo/MRoom.unity
+- path: Assets/Scene/LevelThree/AlanManor.unity
   isLoaded: 0
   isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelThree/SecretRoom.unity
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
