@@ -24,10 +24,26 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Scene/LevelThree/SecretRoomTwo.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelThree/DectBedRoom.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelThree/PoliceStation.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelThree/ApartmentBlock.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelThree/ChurchBasement.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
-- path: Assets/Scene/LevelThree/DectBedRoom.unity
+- path: Assets/Scene/LevelOne/ChruchInterier.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
