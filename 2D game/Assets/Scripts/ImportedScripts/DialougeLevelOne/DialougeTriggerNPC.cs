@@ -9,8 +9,7 @@ public class DialougeTriggerNPC : MonoBehaviour
     public GameObject OpenPanel = null;
     public GameObject dialougeTriggerBox;
     public Dialouge dialouge;
-
-
+    
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")

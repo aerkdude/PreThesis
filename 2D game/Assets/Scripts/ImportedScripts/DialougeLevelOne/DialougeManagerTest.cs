@@ -8,7 +8,7 @@ public class DialougeManagerTest : MonoBehaviour
     public Text nameText;
     public Text dialougeText;
     public GameObject dialougeBox;
-
+    
     private Queue<string> sentences;
     private PlayerMovement thePlayer;
 

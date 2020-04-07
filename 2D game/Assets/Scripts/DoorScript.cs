@@ -41,7 +41,7 @@ public class DoorScript : MonoBehaviour {
     {
         if (IsOpenPanelActive)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyUp(KeyCode.E))
             {
                 //Debug.Log("hit");
                 GameObject player = GameObject.FindGameObjectWithTag("Player");
