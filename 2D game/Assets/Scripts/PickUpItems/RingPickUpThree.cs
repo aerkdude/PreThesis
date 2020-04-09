@@ -50,7 +50,6 @@ public class RingPickUpThree : MonoBehaviour
                         inventory.isFull[i] = true;
                         FadeIn.SetActive(true);
                         StartCoroutine(LoadNextScene());
-                        //Destroy(gameObject);
                         break;
                 }
             }
@@ -60,8 +59,7 @@ public class RingPickUpThree : MonoBehaviour
     IEnumerator LoadNextScene()
     {
         yield return new WaitForSeconds(2);
-        //SceneManager.LoadScene("PoliceStation");
-        Debug.Log("Scene2 loading");
+        SceneManager.LoadScene("ZLastScene");
     }
 }
  
