@@ -33,6 +33,11 @@ public class PlayerMovement : MonoBehaviour {
         {
             Jump();
             canJump = Time.time + 1f;
+            GetComponent<Animator>().SetBool("IsJump", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("IsJump", false);
         }
 		
         if (moveX != 0)

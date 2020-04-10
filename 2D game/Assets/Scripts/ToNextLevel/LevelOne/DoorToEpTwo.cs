@@ -8,6 +8,7 @@ public class DoorToEpTwo : MonoBehaviour
     public GameObject OpenPanel = null;
     public GameObject EndScreen;
     public GameObject chaseBGM;
+    public GameObject blackScreen;
     public GameObject everything;
 
     [SerializeField] private AudioSource OpenSound;
@@ -43,10 +44,17 @@ public class DoorToEpTwo : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 OpenSound.Play();
-                EndScreen.SetActive(true);
+                StartCoroutine(LoadEndScreen());
                 chaseBGM.SetActive(false);
+                blackScreen.SetActive(true);
                 everything.SetActive(false);
             }
         }
+    }
+
+    IEnumerator LoadEndScreen()
+    {
+        yield return new WaitForSeconds(2);
+        EndScreen.SetActive(true);
     }
 }
