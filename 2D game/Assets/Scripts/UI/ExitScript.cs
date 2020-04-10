@@ -5,14 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class ExitScript : MonoBehaviour {
 
-	public void Exit()
+    public GameObject fadeIn;
+
+    public void Exit()
 	{
+        fadeIn.SetActive(true);
 		StartCoroutine(DelaySceneLoad());
 	}
 
 	IEnumerator DelaySceneLoad()
 	{
-		yield return new WaitForSeconds(1.0f);
+		yield return new WaitForSeconds(4);
+        Debug.Log("Exit");
 		Application.Quit();
 	}
 }

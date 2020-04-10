@@ -1,61 +1,17 @@
 sceneSetups:
-- path: Assets/Scene/LevelThree/CrimeRoom.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelThree/ForestThree.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelThree/NightCity.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelThree/AlanManor.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelThree/SecretRoomOne.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelThree/Letter.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelThree/SecretRoomTwo.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelThree/DectBedRoom.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelThree/PoliceStation.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelThree/ApartmentBlock.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelThree/ChurchBasement.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelOne/ChruchInterier.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/TestInv.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelThree/ZLastScene.unity
+- path: Assets/Scene/MainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
-- path: Assets/Scene/LevelOne/IntroTemp.unity
+- path: Assets/Scene/LevelTwo/BedRoomLvl2.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelTwo/BedRoomLvl2to2.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelTwo/MRoom.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
