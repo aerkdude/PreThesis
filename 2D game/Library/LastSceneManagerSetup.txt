@@ -16,6 +16,14 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Scene/LevelThree/NightCity.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/LevelThree/PoliceStation.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scene/TestInv.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
