@@ -7,7 +7,7 @@ public class PaperUsage : MonoBehaviour
 {
     private Transform player;
     public Image Paper;
-    [SerializeField] private AudioSource PaperSound;
+    [SerializeField] private AudioSource clickSound;
 
     private void Start()
     {
@@ -16,19 +16,19 @@ public class PaperUsage : MonoBehaviour
 
     public void Use()
     {
-        PaperSound.Play();
-        StartCoroutine(CloseSelf());
+        clickSound.Play();
         Paper.gameObject.SetActive(true);
     }
 
     public void Close()
     {
-        Paper.gameObject.SetActive(false);
+        clickSound.Play();
+        StartCoroutine(CloseSelf());
     }
 
     IEnumerator CloseSelf()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1);
         Paper.gameObject.SetActive(false);
     }
 }
