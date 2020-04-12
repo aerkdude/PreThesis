@@ -7,6 +7,7 @@ public class DoorToM : MonoBehaviour
 {
     public GameObject FadeIn;
     public PlayerTwo playerTwo;
+    [SerializeField] private AudioSource playSound;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -14,6 +15,7 @@ public class DoorToM : MonoBehaviour
         {
             playerTwo.GetComponent<Animator>().SetTrigger("Dead");
             playerTwo.canMove = false;
+            playSound.Play();
             StartCoroutine(Fade());
         }
     }
