@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class RotatePic : MonoBehaviour
 {
+    [SerializeField] private AudioSource clickSound;
+
     private void OnMouseDown()
     {
         if (!GameControl.youWin)
             transform.Rotate(0f, 0f, 90f);
+            clickSound.Play();
     }
 }

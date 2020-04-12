@@ -11,6 +11,9 @@ public class GameControl : MonoBehaviour
     [SerializeField]
     private GameObject winText;
 
+    [SerializeField]
+    private AudioSource winSound;
+
     public GameObject FadeIn;
     public static bool youWin;
 
@@ -27,10 +30,14 @@ public class GameControl : MonoBehaviour
             pictures[2].rotation.z == 0 &&
             pictures[3].rotation.z == 0 &&
             pictures[4].rotation.z == 0 &&
-            pictures[5].rotation.z == 0)
+            pictures[5].rotation.z == 0 &&
+            pictures[6].rotation.z == 0 &&
+            pictures[7].rotation.z == 0 &&
+            pictures[8].rotation.z == 0)
         {
             youWin = true;
-            winText.SetActive(true);
+            winSound.Play();
+            //winText.SetActive(true);
             FadeIn.SetActive(true);
             StartCoroutine(LoadNextScene());
         }
