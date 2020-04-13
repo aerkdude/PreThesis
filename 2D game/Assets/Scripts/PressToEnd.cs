@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class PressToEnd : MonoBehaviour
 {
-    public GameObject fadeWhite;
-    public GameObject lastText;
-    public GameObject fadeBlack;
-    public GameObject allControllers;
     public GameObject OpenPanel = null;
+    public GameObject tombStoneOld;
+    public GameObject tombStoneNew;
+    public GameObject whiteWitch;
 
     private bool IsOpenPanelActive
     {
@@ -40,31 +39,11 @@ public class PressToEnd : MonoBehaviour
         {
             if (Input.GetKeyUp(KeyCode.E))
             {
-                fadeWhite.SetActive(true);
-                allControllers.SetActive(false);
-                StartCoroutine(ShowText());
+                tombStoneOld.SetActive(false);
+                tombStoneNew.SetActive(true);
+                whiteWitch.SetActive(true);
             }
         }
-    }
-
-    IEnumerator ShowText()
-    {
-        yield return new WaitForSeconds(4);
-        lastText.SetActive(true);
-        StartCoroutine(FadetoBlack());
-    }
-
-    IEnumerator FadetoBlack()
-    {
-        yield return new WaitForSeconds(8);
-        fadeBlack.SetActive(true);
-        StartCoroutine(ToCredits());
-    }
-
-    IEnumerator ToCredits()
-    {
-        yield return new WaitForSeconds(5);
-        Debug.Log("Load Credits");
     }
 }
 

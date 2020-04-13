@@ -71,6 +71,7 @@
      <Compile Include="Assets\Scripts\Dialouge\DialougeHolderForce.cs" />
      <Compile Include="Assets\Scripts\Dialouge\DialougeHolderForSP.cs" />
      <Compile Include="Assets\Scripts\Dialouge\DialougeManager.cs" />
+     <Compile Include="Assets\Scripts\Dialouge\DialougeManagerSp.cs" />
      <Compile Include="Assets\Scripts\Dialouge\DialougeManagerTestMonster.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\DoorLock.cs" />
@@ -94,6 +95,7 @@
      <Compile Include="Assets\Scripts\ImportedScripts\DialougeLevelTwo\DialougeTriggerObjectTwo.cs" />
      <Compile Include="Assets\Scripts\ImportedScripts\DialougeLevelTwo\DialougeTriggerTomTwo.cs" />
      <Compile Include="Assets\Scripts\ImportedScripts\DialougeLevelTwo\DialougeTriggerTwo.cs" />
+     <Compile Include="Assets\Scripts\ImportedScripts\DialougeTriggerWitch.cs" />
      <Compile Include="Assets\Scripts\ImportedScripts\PadLock\LockController.cs" />
      <Compile Include="Assets\Scripts\ImportedScripts\PadLock\LockRotate.cs" />
      <Compile Include="Assets\Scripts\Inventory.cs" />
@@ -120,6 +122,7 @@
      <Compile Include="Assets\Scripts\RotatePic.cs" />
      <Compile Include="Assets\Scripts\SafeScript.cs" />
      <Compile Include="Assets\Scripts\SetActiveEndMapOne.cs" />
+     <Compile Include="Assets\Scripts\SimplePressPlaySound.cs" />
      <Compile Include="Assets\Scripts\SimplePressSetActive.cs" />
      <Compile Include="Assets\Scripts\SimpleSetActive.cs" />
      <Compile Include="Assets\Scripts\SimpleSetActiveDeActive.cs" />
@@ -137,6 +140,7 @@
      <Compile Include="Assets\Scripts\ToNextLevel\LevelOne\SkipToBedroom.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\LevelThree\DoorToAlanManor.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\LevelThree\DoorToApartmentBlock.cs" />
+     <Compile Include="Assets\Scripts\ToNextLevel\LevelThree\DoorToChruchBasement.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\LevelThree\DoorToCrimeRoom.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\LevelThree\DoorToEndScene.cs" />
      <Compile Include="Assets\Scripts\ToNextLevel\LevelThree\DoorToForestThree.cs" />

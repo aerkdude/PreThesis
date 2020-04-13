@@ -1,29 +1,21 @@
 sceneSetups:
-- path: Assets/Scene/LevelOne/EndRoom.unity
+- path: Assets/Scene/LevelThree/AlanManor.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/Scene/MainMenu.unity
+- path: Assets/Scene/LevelThree/SecretRoomTwo.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/Scene/LevelTwo/BedRoomLvl2.unity
+- path: Assets/Scene/LevelThree/SecretRoomOne.unity
   isLoaded: 0
   isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelTwo/MRoom.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scene/LevelTwo/BedRoomLvl2to2.unity
-  isLoaded: 1
-  isActive: 1
   isSubScene: 0
 - path: Assets/Scene/LevelThree/ChurchBasement.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/Scene/LevelOne/ChruchInterier.unity
-  isLoaded: 0
-  isActive: 0
+- path: Assets/Scene/LevelThree/ZLastScene.unity
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0

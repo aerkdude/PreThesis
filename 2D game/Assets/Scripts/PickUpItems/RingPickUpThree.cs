@@ -7,6 +7,7 @@ public class RingPickUpThree : MonoBehaviour
 {
     private Inventory inventory;
     public GameObject OpenPanel = null;
+    public GameObject ToChurch;
     public GameObject FadeIn;
 
     private void Start()
@@ -49,6 +50,7 @@ public class RingPickUpThree : MonoBehaviour
                     if (inventory.isFull[i] == false)
                         inventory.isFull[i] = true;
                         FadeIn.SetActive(true);
+                        ToChurch.SetActive(true);
                         StartCoroutine(LoadNextScene());
                         break;
                 }
@@ -59,7 +61,7 @@ public class RingPickUpThree : MonoBehaviour
     IEnumerator LoadNextScene()
     {
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene("ZLastScene");
+        SceneManager.LoadScene("ChurchBasement");
     }
 }
  
