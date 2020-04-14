@@ -21,6 +21,10 @@ public class PlayerTwo : MonoBehaviour {
     public GameObject gameOverImage;
     public GameObject fadeIn;
 
+    public GameObject playerObj;
+
+    [SerializeField] private AudioSource dieSound;
+
     void Start ()
     {
         currentHealth = maxHealth;
@@ -85,6 +89,7 @@ public class PlayerTwo : MonoBehaviour {
 
     void Die()
     {
+        dieSound.Play();
         GetComponent<Animator>().SetTrigger("Dead");
         StartCoroutine(FadeBlack());
     }
@@ -99,6 +104,7 @@ public class PlayerTwo : MonoBehaviour {
     IEnumerator DelayDeadPic()
     {
         yield return new WaitForSeconds(2);
+        playerObj.SetActive(false);
         gameOverImage.SetActive(true);
     }
 }
