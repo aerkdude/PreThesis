@@ -8,11 +8,9 @@ public class DialougeManagerSp : MonoBehaviour
     public Text nameText;
     public Text dialougeText;
     public GameObject dialougeBox;
-    public GameObject monkNormal;
+    public GameObject witchNormal;
+    public GameObject witchFade;
     public GameObject fadeWhite;
-    //public GameObject bgm;
-    //public GameObject runText;
-    //public GameObject door;
 
     private Queue<string> sentences;
     private PlayerMovement thePlayer;
@@ -74,12 +72,9 @@ public class DialougeManagerSp : MonoBehaviour
     void EndDialouge()
     {
         dialougeBox.SetActive(false);
-        //thePlayer.canMove = true;
-        monkNormal.SetActive(false);
+        witchNormal.SetActive(false);
+        witchFade.SetActive(true);
         StartCoroutine(FadeToWhite());
-        //bgm.SetActive(true);
-        //monkMonster.SetActive(true);
-        //door.SetActive(true);
     }
 
     IEnumerator FadeToWhite()
