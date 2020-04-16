@@ -11,6 +11,8 @@ public class LockRotate : MonoBehaviour
 
     private int numberShown;
 
+    [SerializeField] private AudioSource rotateSound;
+
     private void Start()
     {
         coroutineAllowed = true;
@@ -21,6 +23,7 @@ public class LockRotate : MonoBehaviour
     {
         if (coroutineAllowed)
         {
+            rotateSound.Play();
             StartCoroutine("RotateWheel");
         }
     }

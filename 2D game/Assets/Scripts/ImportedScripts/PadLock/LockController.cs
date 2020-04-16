@@ -5,7 +5,7 @@ using UnityEngine;
 public class LockController : MonoBehaviour
 {
     [SerializeField]
-    private GameObject winText;
+    private AudioSource winSound;
 
     public GameObject padLock;
     public GameObject safeObj;
@@ -38,7 +38,8 @@ public class LockController : MonoBehaviour
         }
         if (result[0] == correctCombination[0] && result[1] == correctCombination[1] && result[2] == correctCombination[2])
         {
-            winText.SetActive(true);
+            //winText.SetActive(true);
+            winSound.Play();
             StartCoroutine(ClosePadLock());
         }
     }
@@ -51,7 +52,6 @@ public class LockController : MonoBehaviour
     IEnumerator ClosePadLock()
     {
         yield return new WaitForSeconds(3);
-        winText.SetActive(false);
         padLock.SetActive(false);
         safeObj.SetActive(false);
         keyObj.SetActive(true);
