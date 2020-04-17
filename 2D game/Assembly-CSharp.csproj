@@ -167,6 +167,7 @@
     <Compile Include="Assets\Scripts\UI\ButtonSound.cs" />
     <Compile Include="Assets\Scripts\UI\ClickSound.cs" />
     <Compile Include="Assets\Scripts\UI\DelayEndPic.cs" />
+    <Compile Include="Assets\Scripts\UI\EndCredits.cs" />
     <Compile Include="Assets\Scripts\UI\EndText.cs" />
     <Compile Include="Assets\Scripts\UI\ExitScript.cs" />
     <Compile Include="Assets\Scripts\UI\Intro.cs" />
