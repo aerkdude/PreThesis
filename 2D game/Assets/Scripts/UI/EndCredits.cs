@@ -7,6 +7,8 @@ public class EndCredits : MonoBehaviour
 {
     public GameObject endText;
     public GameObject devText;
+    public GameObject devTextTwo;
+    public GameObject devTextThree;
     public GameObject fadeBlack;
 
     void Start()
@@ -25,12 +27,26 @@ public class EndCredits : MonoBehaviour
     {
         yield return new WaitForSeconds(8);
         devText.SetActive(true);
+        StartCoroutine(DevTextTwoShow());
+    }
+
+    IEnumerator DevTextTwoShow()
+    {
+        yield return new WaitForSeconds(8);
+        devTextTwo.SetActive(true);
+        StartCoroutine(DevTextThreeShow());
+    }
+
+    IEnumerator DevTextThreeShow()
+    {
+        yield return new WaitForSeconds(8);
+        devTextThree.SetActive(true);
         StartCoroutine(FadeBlackScreen());
     }
 
     IEnumerator FadeBlackScreen()
     {
-        yield return new WaitForSeconds(9);
+        yield return new WaitForSeconds(12);
         fadeBlack.SetActive(true);
         StartCoroutine(LoadMenu());
     }
