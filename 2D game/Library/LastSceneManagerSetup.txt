@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scene/LevelOne/Town.unity
+- path: Assets/Scene/LevelThree/ChurchBasement.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
