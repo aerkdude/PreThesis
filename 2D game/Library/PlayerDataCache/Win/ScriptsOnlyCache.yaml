@@ -110,8 +110,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimatorControllerTool
-    UnityEditor.TestRunner.dll:
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -1833,8 +1831,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9890}
     - Class: 114
-      Script: {instanceID: 10488}
-    - Class: 114
       Script: {instanceID: 10556}
     - Class: 114
       Script: {instanceID: 10568}
@@ -2588,6 +2584,8 @@ ScriptsOnlyBuild:
     - Class: 95
       Script: {instanceID: 0}
     - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 9420}
@@ -5671,4 +5669,4 @@ ScriptsOnlyBuild:
   - Assets/Scene/LevelThree/SecretRoomTwo.unity
   - Assets/Scene/LevelThree/ChurchBasement.unity
   - Assets/Scene/LevelThree/ZLastScene.unity
-  playerPath: C:/Users/User/Desktop/M People Vogue/M. People Vouge.exe
+  playerPath: C:/Users/User/Desktop/M People Vogue 1280-720/M. People Vouge.exe
