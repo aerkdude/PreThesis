@@ -110,6 +110,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -625,6 +627,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 9420}
     - Class: 114
@@ -714,6 +718,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
       Script: {instanceID: 0}
     Assets/Scene/LevelOne/Forest.unity:
     - Class: 1
@@ -2350,8 +2356,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9446}
     - Class: 114
-      Script: {instanceID: 9618}
-    - Class: 114
       Script: {instanceID: 9640}
     - Class: 114
       Script: {instanceID: 9678}
@@ -3626,7 +3630,7 @@ ScriptsOnlyBuild:
     className: AnimationTrack
   - hash:
       serializedVersion: 2
-      Hash: 78fa6377c8c71e49f4b5937131da6bee
+      Hash: a8a789fa07c03c9f5d9c7fdcd6ff779a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement
@@ -4412,7 +4416,7 @@ ScriptsOnlyBuild:
     className: WitchSetActive
   - hash:
       serializedVersion: 2
-      Hash: 1494d8ca28238c4c5bbadcb9de2f1c85
+      Hash: 13e2cb095c617eaa532344892b5add29
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Intro
@@ -4622,7 +4626,7 @@ ScriptsOnlyBuild:
     className: DoorToForest
   - hash:
       serializedVersion: 2
-      Hash: f6c3dff0dc6391f3882e6e7cc7f3b0e7
+      Hash: d56fcec5b8060ed7cb1141af245a83a9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerTwo
@@ -5673,4 +5677,4 @@ ScriptsOnlyBuild:
   - Assets/Scene/LevelThree/SecretRoomTwo.unity
   - Assets/Scene/LevelThree/ChurchBasement.unity
   - Assets/Scene/LevelThree/ZLastScene.unity
-  playerPath: C:/Users/User/Desktop/M People Vogue - Update Build/M. People Vouge.exe
+  playerPath: C:/Users/User/Desktop/M People Vogue/M. People Vouge.exe
