@@ -11,6 +11,9 @@ public class PlayerMovement : MonoBehaviour {
     public bool canMove;
     private float canJump = 0f;
 
+    [SerializeField]
+    private AudioSource JumpSound;
+
     void Start ()
     {
         canMove = true;
@@ -64,6 +67,7 @@ public class PlayerMovement : MonoBehaviour {
 
     void Jump()
     {
+        JumpSound.Play();
         GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
     }
 }

@@ -24,6 +24,7 @@ public class PlayerTwo : MonoBehaviour {
     public GameObject playerObj;
 
     [SerializeField] private AudioSource dieSound;
+    [SerializeField] private AudioSource jumpSound;
 
     void Start ()
     {
@@ -89,6 +90,7 @@ public class PlayerTwo : MonoBehaviour {
 
     void Jump()
     {
+        jumpSound.Play();
         GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
     }
 

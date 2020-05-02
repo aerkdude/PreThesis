@@ -10,6 +10,7 @@ public class Intro : MonoBehaviour
     public GameObject TextThree;
     public GameObject TextFour;
     public GameObject TextFive;
+    public GameObject SkipText;
     public GameObject PressText;
     public GameObject ButtonController;
     
@@ -53,6 +54,7 @@ public class Intro : MonoBehaviour
     IEnumerator LoadButton()
     {
         yield return new WaitForSeconds(8);
+        SkipText.SetActive(false);
         PressText.SetActive(true);
         ButtonController.SetActive(true);
     }
